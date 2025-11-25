@@ -12,6 +12,7 @@ const Weapon = @import("Weapon.zig");
 const Equip = @import("Equip.zig");
 const Material = @import("Material.zig");
 const Hall = @import("Hall.zig");
+const HadalZone = @import("HadalZone.zig");
 
 const Io = std.Io;
 const Allocator = std.mem.Allocator;
@@ -51,6 +52,7 @@ material_map: std.AutoArrayHashMapUnmanaged(u32, i32),
 hall: Hall,
 cur_section: ?Hall.Section = null,
 active_npcs: std.AutoArrayHashMapUnmanaged(u32, Hall.Npc) = .empty,
+hadal_zone: HadalZone,
 
 pub const Sync = struct {
     fn HashSet(comptime T: type) type {
@@ -101,6 +103,7 @@ pub const Sync = struct {
     pending_section_switch: ?u32 = null,
     hall_refresh: bool = false,
     client_events: std.ArrayList(ClientEvent) = .empty,
+    hadal_zone_changed: bool = false,
 
     pub fn reset(sync: *Sync) void {
         sync.basic_info_changed = false;
@@ -112,6 +115,7 @@ pub const Sync = struct {
         sync.in_scene_transition = false;
         sync.pending_section_switch = null;
         sync.hall_refresh = false;
+        sync.hadal_zone_changed = false;
 
         for (sync.client_events.items) |*event| event.deinit();
         sync.client_events.clearRetainingCapacity();
@@ -158,6 +162,12 @@ pub fn save(player: *const Player, arena: Allocator, fs: *FileSystem) !void {
 
     if (player.sync.materials_changed) {
         try Material.saveAll(arena, fs, player.player_uid, &player.material_map);
+    }
+
+    if (player.sync.hadal_zone_changed) {
+        const hz_zon = try file_util.serializeZon(arena, player.hadal_zone);
+        const save_path = try std.fmt.allocPrint(arena, "player/{}/hadal_zone/info", .{player.player_uid});
+        try fs.writeFile(save_path, hz_zon);
     }
 }
 
@@ -228,6 +238,12 @@ pub fn reloadFile(
 
         try player.active_npcs.put(gpa, npc_id, new_npc);
         player.sync.hall_refresh = true;
+    } else if (std.mem.eql(u8, path, "hadal_zone/info")) {
+        const new_hz = try file_util.parseZon(HadalZone, gpa, content);
+
+        player.hadal_zone.deinit(gpa);
+        player.hadal_zone = new_hz;
+        player.sync.hadal_zone_changed = true;
     }
 }
 
@@ -241,6 +257,7 @@ pub fn loadOrCreate(gpa: Allocator, fs: *FileSystem, assets: *const Assets, play
     const equip_map = try loadItems(Equip, gpa, fs, assets, player_uid, true);
     const material_map = try Material.loadAll(gpa, fs, assets, player_uid);
     const hall = try file_util.loadOrCreateZon(Hall, gpa, arena.allocator(), fs, "player/{}/hall/info", .{player_uid});
+    const hadal_zone = try file_util.loadOrCreateZon(HadalZone, gpa, arena.allocator(), fs, "player/{}/hadal_zone/info", .{player_uid});
 
     return .{
         .player_uid = player_uid,
@@ -250,6 +267,7 @@ pub fn loadOrCreate(gpa: Allocator, fs: *FileSystem, assets: *const Assets, play
         .equip_map = equip_map,
         .material_map = material_map,
         .hall = hall,
+        .hadal_zone = hadal_zone,
     };
 }
 

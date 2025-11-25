@@ -7377,7 +7377,7 @@ pub const StartHadalZoneBattleCsReq = struct {
     second_room_buddy_id: u32 = 0,
     second_room_avatar_id_list: []const u32 = &.{},
     layer_item_id: u32 = 0,
-    IJIKKGDCAIE: u32 = 0,
+    room_index: u32 = 0,
 };
 pub const CGEDPNPLDFA = struct {
     pub const default: @This() = .{};
@@ -7829,9 +7829,9 @@ pub const CACNJNKDMGE = struct {
     LEECJAHPFEB: ?EOOEMHBFNNC = null,
     retcode: i32 = 0,
 };
-pub const FPGPLHKIMLB = struct {
+pub const HadalEntranceSync = struct {
     pub const default: @This() = .{};
-    PEOEHCGMENP: ?ZoneRecord = null,
+    cur_zone_record_sync: ?ZoneRecord = null,
     entrance_id: u32 = 0,
     EPEJOCEICJB: ?ZoneRecord = null,
     FJBAAHJPPBI: []const u32 = &.{},
@@ -8441,12 +8441,12 @@ pub const LayerRecord = struct {
     fight_time_list: []const u32 = &.{},
     HDHPIMKLPCC: bool = false,
     FCNJFHGKOHP: u32 = 0,
-    EDOJADLAKFO: []const u32 = &.{},
-    JCCBBOPFPIC: u32 = 0,
+    avatar_id_list: []const u32 = &.{},
+    buddy_id: u32 = 0,
     PNHJOFPBGHI: u32 = 0,
     layer_item_id: u32 = 0,
     NIIHAFBFKOB: ?JBOCHDBLHGP = null,
-    IJIKKGDCAIE: u32 = 0,
+    room_index: u32 = 0,
 };
 pub const LDCHLELLGMP = struct {
     pub const default: @This() = .{};
@@ -12335,6 +12335,22 @@ pub const GetItemDataScRsp = struct {
     retcode: i32 = 0,
     EHNHLKBJIOJ: []const MapEntry(u32, PAAIKJDMIPA) = &.{},
     EDDAFOMLLIA: []const u32 = &.{},
+};
+pub const SetupHadalZoneRoomCsReq = struct {
+    pub const default: @This() = .{};
+    zone_id: u32 = 0,
+    layer_setup_list: []const LayerSetup = &.{},
+};
+pub const LayerSetup = struct {
+    pub const default: @This() = .{};
+    layer_index: u32 = 0,
+    avatar_id_list: []const u32 = &.{},
+    buddy_id: u32 = 0,
+    layer_item_id: u32 = 0,
+};
+pub const SetupHadalZoneRoomScRsp = struct {
+    pub const default: @This() = .{};
+    retcode: i32 = 0,
 };
 pub const OCAJCNBAFOJ = struct {
     pub const default: @This() = .{};
@@ -17069,7 +17085,7 @@ pub const PCJIJILLCPB = struct {
 pub const CKKGFMHGDOF = struct {
     pub const default: @This() = .{};
     zone_id: u32 = 0,
-    IJIKKGDCAIE: u32 = 0,
+    room_index: u32 = 0,
     layer_index: u32 = 0,
 };
 pub const EKNDMNDEHJK = struct {
@@ -17124,9 +17140,9 @@ pub const EJADNBDBHCM = struct {
 };
 pub const EntranceType = enum(i32) {
     pub const default: @This() = @field(@This(), std.meta.fieldNames(@This())[0]);
-    EntranceType_MMIPNEOHFEB = 0,
-    EntranceType_PAGGCJPANGJ = 1,
-    EntranceType_BFJOIAOOBBJ = 2,
+    none = 0,
+    constant = 1,
+    scheduled = 2,
 };
 pub const HFLDOGEBFEB = struct {
     pub const default: @This() = .{};
@@ -21960,11 +21976,11 @@ pub const CDBEOKGPFKA = struct {
 };
 pub const LayerStatus = enum(i32) {
     pub const default: @This() = @field(@This(), std.meta.fieldNames(@This())[0]);
-    LayerStatus_GOCKHJAAJKI = 0,
-    LayerStatus_PHHIPIILKMH = 1,
-    LayerStatus_MBEGDEDDJFI = 2,
-    LayerStatus_DGAJPCDLKII = 4,
-    LayerStatus_KPFFGOAIFLA = 8,
+    GOCKHJAAJKI = 0,
+    PHHIPIILKMH = 1,
+    MBEGDEDDJFI = 2,
+    DGAJPCDLKII = 4,
+    KPFFGOAIFLA = 8,
 };
 pub const MGKFNLMKBKO = struct {
     pub const default: @This() = .{};
@@ -23730,7 +23746,7 @@ pub const HadalZoneSceneData = struct {
     pub const default: @This() = .{};
     second_room_buddy_id: u32 = 0,
     scene_perform: ?ScenePerformInfo = null,
-    IJIKKGDCAIE: u32 = 0,
+    room_index: u32 = 0,
     first_room_buddy_id: u32 = 0,
     CCJCCANJNBJ: []const u32 = &.{},
     zone_id: u32 = 0,
@@ -26084,7 +26100,7 @@ pub const PlayerSyncScNotify = struct {
     IODJAEDMILK: ?EBHACEJLBKI = null,
     BMGCHBAEHFA: ?NEGDDOMCIFM = null,
     DDIBHDFJHMH: []const JNMEGEAIAMC = &.{},
-    IKCCDLKECFD: ?AMAPBJKKCHM = null,
+    hadal_zone: ?HadalZoneSync = null,
     OIKJPNKLOFI: ?NBBIMPBKPKF = null,
     HDAFPAEPKKH: ?LJOGEDBCBBL = null,
     EHEPBFONAPM: ?ABBGCEGLGJA = null,
@@ -33272,9 +33288,9 @@ pub const AIKLOINMMFF = struct {
     AGJFLLOIOII: ?LKGHPOCPFGB = null,
     EACAPMLMJME: []const u32 = &.{},
 };
-pub const AMAPBJKKCHM = struct {
+pub const HadalZoneSync = struct {
     pub const default: @This() = .{};
-    PPEIFMKEEFD: []const FPGPLHKIMLB = &.{},
+    sync_entrance_list: []const HadalEntranceSync = &.{},
 };
 pub const EABJIALNNJN = struct {
     pub const default: @This() = .{};
@@ -34366,7 +34382,7 @@ pub const JCAKCFGMBFE = struct {
     JGPOCIDMOAF: ?MCLCCKNFCPA = null,
     GFCDJCBAOBA: ?CCKOFANOHML = null,
     ALPLAFBKJOL: ?OBKMGNMBIOC = null,
-    IKCCDLKECFD: ?OKMJOCEJCKB = null,
+    hadal_zone: ?OKMJOCEJCKB = null,
     ICPOPMPOAEP: ?DGLALEDBIJN = null,
     EDBEJFBFCEH: ?DICGLPJAFEH = null,
     NJGCGCCFIKN: ?JPLCIEHGJHA = null,
