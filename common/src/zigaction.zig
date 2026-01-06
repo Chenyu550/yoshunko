@@ -12,7 +12,7 @@ pub fn Handler(comptime sig: posix.SIG) type {
             awaiter_io = io;
 
             // 跨平台适配：Windows 跳过 sigaction（无实现），POSIX 保留原逻辑
-            if (std.Target.current.os.tag != .windows) {
+            if (std.builtin.target.os.tag != .windows) {
                 // 修正：显式声明 sigaction_t 结构体，而非匿名初始化
                 const act = posix.sigaction_t{
                     .handler = .{ .handler = sigHandler },
