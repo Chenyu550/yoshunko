@@ -8546,6 +8546,11 @@
       "tips_group": 1011
     },
     {
+      "tips_id": 2028000,
+      "tips_text": "Tips_2028000",
+      "tips_group": 100
+    },
+    {
       "tips_id": 2028001,
       "tips_text": "Tips_2028001",
       "tips_group": 100
@@ -8583,6 +8588,36 @@
     {
       "tips_id": 2028008,
       "tips_text": "Tips_2028008",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 2028101,
+      "tips_text": "Tips_2028101",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 2028102,
+      "tips_text": "Tips_2028102",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 2028103,
+      "tips_text": "Tips_2028103",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 2028104,
+      "tips_text": "Tips_2028104",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 2028105,
+      "tips_text": "Tips_2028105",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 2028106,
+      "tips_text": "Tips_2028106",
       "tips_group": 100
     },
     {
@@ -9509,6 +9544,21 @@
       "tips_id": 5402003,
       "tips_text": "Tips_5402003",
       "tips_group": 540201
+    },
+    {
+      "tips_id": 5402101,
+      "tips_text": "Tips_5402101",
+      "tips_group": 54021
+    },
+    {
+      "tips_id": 5402102,
+      "tips_text": "Tips_5402102",
+      "tips_group": 54021
+    },
+    {
+      "tips_id": 5402103,
+      "tips_text": "Tips_5402103",
+      "tips_group": 54021
     },
     {
       "tips_id": 6140021,
@@ -12638,12 +12688,12 @@
     {
       "tips_id": 10012320,
       "tips_text": "Tips_10012320",
-      "tips_group": 202
+      "tips_group": 200
     },
     {
       "tips_id": 10012321,
       "tips_text": "Tips_10012321",
-      "tips_group": 203
+      "tips_group": 201
     },
     {
       "tips_id": 10012322,
@@ -12773,6 +12823,46 @@
     {
       "tips_id": 10012347,
       "tips_text": "Tips_10012347",
+      "tips_group": 201
+    },
+    {
+      "tips_id": 10012348,
+      "tips_text": "Tips_10012348",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 10012349,
+      "tips_text": "Tips_10012349",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 10012350,
+      "tips_text": "Tips_10012350",
+      "tips_group": 201
+    },
+    {
+      "tips_id": 10012351,
+      "tips_text": "Tips_10012351",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 10012352,
+      "tips_text": "Tips_10012352",
+      "tips_group": 201
+    },
+    {
+      "tips_id": 10012353,
+      "tips_text": "Tips_10012353",
+      "tips_group": 202
+    },
+    {
+      "tips_id": 10012354,
+      "tips_text": "Tips_10012354",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 10012355,
+      "tips_text": "Tips_10012355",
       "tips_group": 201
     },
     {
@@ -17178,6 +17268,211 @@
     {
       "tips_id": 20025723,
       "tips_text": "Tips_20025723",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028701,
+      "tips_text": "Tips_20028701",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028702,
+      "tips_text": "Tips_20028702",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028703,
+      "tips_text": "Tips_20028703",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028704,
+      "tips_text": "Tips_20028704",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028705,
+      "tips_text": "Tips_20028705",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028706,
+      "tips_text": "Tips_20028706",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028707,
+      "tips_text": "Tips_20028707",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028708,
+      "tips_text": "Tips_20028708",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028901,
+      "tips_text": "Tips_20028901",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028902,
+      "tips_text": "Tips_20028902",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20028903,
+      "tips_text": "Tips_20028903",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029001,
+      "tips_text": "Tips_20029001",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029002,
+      "tips_text": "Tips_20029002",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029003,
+      "tips_text": "Tips_20029003",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029004,
+      "tips_text": "Tips_20029004",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029005,
+      "tips_text": "Tips_20029005",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029006,
+      "tips_text": "Tips_20029006",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029007,
+      "tips_text": "Tips_20029007",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029008,
+      "tips_text": "Tips_20029008",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029009,
+      "tips_text": "Tips_20029009",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029010,
+      "tips_text": "Tips_20029010",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029101,
+      "tips_text": "Tips_20029101",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029102,
+      "tips_text": "Tips_20029102",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029103,
+      "tips_text": "Tips_20029103",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029104,
+      "tips_text": "Tips_20029104",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029201,
+      "tips_text": "Tips_20029201",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029202,
+      "tips_text": "Tips_20029202",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029203,
+      "tips_text": "Tips_20029203",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029204,
+      "tips_text": "Tips_20029204",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029205,
+      "tips_text": "Tips_20029205",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029206,
+      "tips_text": "Tips_20029206",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029301,
+      "tips_text": "Tips_20029301",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029302,
+      "tips_text": "Tips_20029302",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029303,
+      "tips_text": "Tips_20029303",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029401,
+      "tips_text": "Tips_20029401",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029402,
+      "tips_text": "Tips_20029402",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029403,
+      "tips_text": "Tips_20029403",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029404,
+      "tips_text": "Tips_20029404",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029405,
+      "tips_text": "Tips_20029405",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029501,
+      "tips_text": "Tips_20029501",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 20029502,
+      "tips_text": "Tips_20029502",
       "tips_group": 100
     },
     {
@@ -28191,6 +28486,26 @@
       "tips_group": 200
     },
     {
+      "tips_id": 72025165,
+      "tips_text": "Tips_72025165",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 72025166,
+      "tips_text": "Tips_72025166",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 72025167,
+      "tips_text": "Tips_72025167",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 72025168,
+      "tips_text": "Tips_72025168",
+      "tips_group": 200
+    },
+    {
       "tips_id": 72030001,
       "tips_text": "Tips_72030001",
       "tips_group": 1312
@@ -34946,6 +35261,11 @@
       "tips_group": 101
     },
     {
+      "tips_id": 74090096,
+      "tips_text": "Tips_74090096",
+      "tips_group": 101
+    },
+    {
       "tips_id": 74100001,
       "tips_text": "Tips_74100001",
       "tips_group": 112
@@ -35469,6 +35789,16 @@
       "tips_id": 74134002,
       "tips_text": "Tips_74134002",
       "tips_group": 200
+    },
+    {
+      "tips_id": 74134003,
+      "tips_text": "Tips_74134003",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 74134004,
+      "tips_text": "Tips_10012356",
+      "tips_group": 110
     },
     {
       "tips_id": 74300001,
@@ -36472,107 +36802,312 @@
     },
     {
       "tips_id": 74430017,
-      "tips_text": "Tips_74430017",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430018,
-      "tips_text": "Tips_74430018",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430019,
-      "tips_text": "Tips_74430019",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430020,
-      "tips_text": "Tips_74430020",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430021,
-      "tips_text": "Tips_74430021",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430022,
-      "tips_text": "Tips_74430022",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430023,
-      "tips_text": "Tips_74430023",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430024,
-      "tips_text": "Tips_74430024",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430025,
-      "tips_text": "Tips_74430025",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430026,
-      "tips_text": "Tips_74430026",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430027,
-      "tips_text": "Tips_74430027",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430028,
-      "tips_text": "Tips_74430028",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430029,
-      "tips_text": "Tips_74430029",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430030,
-      "tips_text": "Tips_74430030",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430031,
-      "tips_text": "Tips_74430031",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430032,
-      "tips_text": "Tips_74430032",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430033,
-      "tips_text": "Tips_74430033",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430034,
-      "tips_text": "Tips_74430034",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430035,
-      "tips_text": "Tips_74430035",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430036,
-      "tips_text": "Tips_74430036",
+      "tips_text": "",
       "tips_group": 20000166
     },
     {
       "tips_id": 74430037,
-      "tips_text": "Tips_74430037",
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430038,
+      "tips_text": "Tips_74430001",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430039,
+      "tips_text": "Tips_74430002",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430040,
+      "tips_text": "Tips_74430003",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430041,
+      "tips_text": "Tips_74430004",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430042,
+      "tips_text": "Tips_74430005",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430043,
+      "tips_text": "Tips_74430006",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430044,
+      "tips_text": "Tips_74430007",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430045,
+      "tips_text": "Tips_74430008",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430046,
+      "tips_text": "Tips_74430009",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430047,
+      "tips_text": "Tips_74430010",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430048,
+      "tips_text": "Tips_74430011",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430049,
+      "tips_text": "Tips_74430012",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430050,
+      "tips_text": "Tips_74430013",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430051,
+      "tips_text": "Tips_74430014",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430052,
+      "tips_text": "Tips_74430015",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430053,
+      "tips_text": "Tips_74430016",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430054,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430055,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430056,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430057,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430058,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430059,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430060,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430061,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430062,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430063,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430064,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430065,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430066,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430067,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430068,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430069,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430070,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430071,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430072,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430073,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430074,
+      "tips_text": "",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430075,
+      "tips_text": "Tips_74430002",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430076,
+      "tips_text": "Tips_74430005",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430077,
+      "tips_text": "Tips_74430009",
+      "tips_group": 20000166
+    },
+    {
+      "tips_id": 74430078,
+      "tips_text": "Tips_74430011",
       "tips_group": 20000166
     },
     {
@@ -37459,6 +37994,341 @@
       "tips_id": 74480037,
       "tips_text": "Tips_74480037",
       "tips_group": 20000168
+    },
+    {
+      "tips_id": 74490001,
+      "tips_text": "Tips_74490001",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490002,
+      "tips_text": "Tips_74490002",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490003,
+      "tips_text": "Tips_74490003",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490004,
+      "tips_text": "Tips_74490004",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490005,
+      "tips_text": "Tips_74490005",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490006,
+      "tips_text": "Tips_74490006",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490007,
+      "tips_text": "Tips_74490007",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490008,
+      "tips_text": "Tips_74490008",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490009,
+      "tips_text": "Tips_74490009",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490010,
+      "tips_text": "Tips_74490010",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490011,
+      "tips_text": "Tips_74490011",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490012,
+      "tips_text": "Tips_74490012",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490013,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490014,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490015,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490016,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490017,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490018,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490019,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490020,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490021,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490022,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490023,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490024,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490025,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490026,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490027,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490028,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490029,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490030,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490031,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490032,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74490033,
+      "tips_text": "",
+      "tips_group": 20000210
+    },
+    {
+      "tips_id": 74500001,
+      "tips_text": "Tips_74500001",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500002,
+      "tips_text": "Tips_74500002",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500003,
+      "tips_text": "Tips_74500003",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500004,
+      "tips_text": "Tips_74500004",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500005,
+      "tips_text": "Tips_74500005",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500006,
+      "tips_text": "Tips_74500006",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500007,
+      "tips_text": "Tips_74500007",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500008,
+      "tips_text": "Tips_74500008",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500009,
+      "tips_text": "Tips_74500009",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500010,
+      "tips_text": "Tips_74500010",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500011,
+      "tips_text": "Tips_74500011",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500012,
+      "tips_text": "Tips_74500012",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500013,
+      "tips_text": "Tips_74500013",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500014,
+      "tips_text": "Tips_74500014",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500015,
+      "tips_text": "Tips_74500015",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500016,
+      "tips_text": "Tips_74500016",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500017,
+      "tips_text": "Tips_74500017",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500018,
+      "tips_text": "Tips_74500018",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500019,
+      "tips_text": "Tips_74500019",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500020,
+      "tips_text": "Tips_74500020",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500021,
+      "tips_text": "Tips_74500021",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500022,
+      "tips_text": "Tips_74500022",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500023,
+      "tips_text": "Tips_74500023",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500024,
+      "tips_text": "Tips_74500024",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500025,
+      "tips_text": "Tips_74500025",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500026,
+      "tips_text": "Tips_74500026",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500027,
+      "tips_text": "Tips_74500027",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500028,
+      "tips_text": "Tips_74500028",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500029,
+      "tips_text": "Tips_74500029",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500030,
+      "tips_text": "Tips_74500030",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500031,
+      "tips_text": "Tips_74500031",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500032,
+      "tips_text": "Tips_74500032",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500033,
+      "tips_text": "Tips_74500033",
+      "tips_group": 20000211
+    },
+    {
+      "tips_id": 74500034,
+      "tips_text": "Tips_74500034",
+      "tips_group": 20000211
     },
     {
       "tips_id": 99999999,
@@ -51281,6 +52151,96 @@
       "tips_group": 100
     },
     {
+      "tips_id": 106000001,
+      "tips_text": "Tips_106000001",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000002,
+      "tips_text": "Tips_106000002",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000003,
+      "tips_text": "Tips_106000003",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000004,
+      "tips_text": "Tips_106000004",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000005,
+      "tips_text": "Tips_106000005",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000006,
+      "tips_text": "Tips_106000006",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000007,
+      "tips_text": "Tips_106000007",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000008,
+      "tips_text": "Tips_106000008",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000009,
+      "tips_text": "Tips_106000009",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000010,
+      "tips_text": "Tips_106000010",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000011,
+      "tips_text": "Tips_106000011",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000012,
+      "tips_text": "Tips_106000012",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000013,
+      "tips_text": "Tips_106000013",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000014,
+      "tips_text": "Tips_106000014",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000015,
+      "tips_text": "Tips_106000015",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000016,
+      "tips_text": "Tips_106000016",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000017,
+      "tips_text": "Tips_106000017",
+      "tips_group": 104
+    },
+    {
+      "tips_id": 106000018,
+      "tips_text": "Tips_106000018",
+      "tips_group": 104
+    },
+    {
       "tips_id": 121101001,
       "tips_text": "Text_Date_ArcadeBreathiness",
       "tips_group": 1101
@@ -63671,6 +64631,16 @@
       "tips_group": 1391
     },
     {
+      "tips_id": 200028209,
+      "tips_text": "Tips_200028202_1",
+      "tips_group": 1391
+    },
+    {
+      "tips_id": 200028210,
+      "tips_text": "Tips_200028208_1",
+      "tips_group": 1391
+    },
+    {
       "tips_id": 200030101,
       "tips_text": "Tips_200030101",
       "tips_group": 54017
@@ -65456,6 +66426,101 @@
       "tips_group": 53014
     },
     {
+      "tips_id": 205011084,
+      "tips_text": "Tips_205011084",
+      "tips_group": 20000177
+    },
+    {
+      "tips_id": 205011085,
+      "tips_text": "Tips_205011085",
+      "tips_group": 20000177
+    },
+    {
+      "tips_id": 205011086,
+      "tips_text": "Tips_205011086",
+      "tips_group": 20000176
+    },
+    {
+      "tips_id": 205011087,
+      "tips_text": "Tips_205011087",
+      "tips_group": 20000176
+    },
+    {
+      "tips_id": 205011088,
+      "tips_text": "Tips_205011088",
+      "tips_group": 20000178
+    },
+    {
+      "tips_id": 205011089,
+      "tips_text": "Tips_205011089",
+      "tips_group": 20000178
+    },
+    {
+      "tips_id": 205011090,
+      "tips_text": "Tips_205011090",
+      "tips_group": 20000178
+    },
+    {
+      "tips_id": 205011091,
+      "tips_text": "Tips_205011091",
+      "tips_group": 20000178
+    },
+    {
+      "tips_id": 205011092,
+      "tips_text": "Tips_205011092",
+      "tips_group": 20000178
+    },
+    {
+      "tips_id": 205011093,
+      "tips_text": "Tips_205011093",
+      "tips_group": 103
+    },
+    {
+      "tips_id": 205011094,
+      "tips_text": "Tips_205011094",
+      "tips_group": 103
+    },
+    {
+      "tips_id": 205011095,
+      "tips_text": "Tips_205011095",
+      "tips_group": 103
+    },
+    {
+      "tips_id": 205011096,
+      "tips_text": "Tips_205011096",
+      "tips_group": 103
+    },
+    {
+      "tips_id": 205011097,
+      "tips_text": "Tips_205011097",
+      "tips_group": 20000177
+    },
+    {
+      "tips_id": 205011098,
+      "tips_text": "Tips_205011098",
+      "tips_group": 20000178
+    },
+    {
+      "tips_id": 205011099,
+      "tips_text": "Tips_205011099",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 205011100,
+      "tips_text": "Tips_205011100",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 205011101,
+      "tips_text": "Tips_205011101",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 205011102,
+      "tips_text": "Tips_205011102",
+      "tips_group": 100
+    },
+    {
       "tips_id": 205012001,
       "tips_text": "Tips_205012001",
       "tips_group": 1050204
@@ -65633,77 +66698,122 @@
     {
       "tips_id": 205012036,
       "tips_text": "Tips_205012036",
-      "tips_group": 53001
+      "tips_group": 20000175
     },
     {
       "tips_id": 205012037,
       "tips_text": "Tips_205012037",
-      "tips_group": 53001
+      "tips_group": 20000175
     },
     {
       "tips_id": 205012038,
       "tips_text": "Tips_205012038",
-      "tips_group": 53001
+      "tips_group": 20000175
     },
     {
       "tips_id": 205012039,
       "tips_text": "Tips_205012039",
-      "tips_group": 53001
+      "tips_group": 20000175
     },
     {
       "tips_id": 205012040,
       "tips_text": "Tips_205012040",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012041,
       "tips_text": "Tips_205012041",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012042,
       "tips_text": "Tips_205012042",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012043,
       "tips_text": "Tips_205012043",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012044,
       "tips_text": "Tips_205012044",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012045,
       "tips_text": "Tips_205012045",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012046,
       "tips_text": "Tips_205012046",
-      "tips_group": 53001
+      "tips_group": 20000175
     },
     {
       "tips_id": 205012047,
       "tips_text": "Tips_205012047",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012048,
       "tips_text": "Tips_205012048",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012049,
       "tips_text": "Tips_205012049",
-      "tips_group": 53001
+      "tips_group": 1371
     },
     {
       "tips_id": 205012050,
       "tips_text": "Tips_205012050",
-      "tips_group": 53001
+      "tips_group": 1371
+    },
+    {
+      "tips_id": 205012051,
+      "tips_text": "Tips_205012051",
+      "tips_group": 20000175
+    },
+    {
+      "tips_id": 205012052,
+      "tips_text": "Tips_205012052",
+      "tips_group": 1371
+    },
+    {
+      "tips_id": 205012053,
+      "tips_text": "Tips_205012053",
+      "tips_group": 1371
+    },
+    {
+      "tips_id": 205012054,
+      "tips_text": "Tips_205012054",
+      "tips_group": 1371
+    },
+    {
+      "tips_id": 205012055,
+      "tips_text": "Tips_205012055",
+      "tips_group": 1371
+    },
+    {
+      "tips_id": 205012056,
+      "tips_text": "Tips_205012056",
+      "tips_group": 1371
+    },
+    {
+      "tips_id": 205012057,
+      "tips_text": "Tips_205012057",
+      "tips_group": 20000175
+    },
+    {
+      "tips_id": 205012058,
+      "tips_text": "Tips_205012058",
+      "tips_group": 20000175
+    },
+    {
+      "tips_id": 205012059,
+      "tips_text": "Tips_205012059",
+      "tips_group": 1371
     },
     {
       "tips_id": 205013001,
@@ -66309,6 +67419,36 @@
       "tips_id": 250001004,
       "tips_text": "Tips_250001004",
       "tips_group": 53001
+    },
+    {
+      "tips_id": 250001005,
+      "tips_text": "Tips_250001005",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 250001006,
+      "tips_text": "Tips_250001006",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 250001007,
+      "tips_text": "Tips_250001007",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 250001008,
+      "tips_text": "Tips_250001008",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 250001009,
+      "tips_text": "Tips_250001009",
+      "tips_group": 100
+    },
+    {
+      "tips_id": 250001010,
+      "tips_text": "Tips_250001010",
+      "tips_group": 100
     },
     {
       "tips_id": 260000001,
@@ -68184,6 +69324,16 @@
       "tips_id": 999900021,
       "tips_text": "Tips_999900021",
       "tips_group": 100
+    },
+    {
+      "tips_id": 999900022,
+      "tips_text": "Tips_999900022",
+      "tips_group": 200
+    },
+    {
+      "tips_id": 999900023,
+      "tips_text": "Tips_999900023",
+      "tips_group": 200
     },
     {
       "tips_id": 1010110001,

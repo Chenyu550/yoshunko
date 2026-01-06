@@ -1071,6 +1071,11 @@
       "priority": 1
     },
     {
+      "tips_group_id": 54021,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30218.png",
+      "priority": 1
+    },
+    {
       "tips_group_id": 101011,
       "group_icon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0001.png",
       "priority": 1
@@ -2426,6 +2431,11 @@
       "priority": 0
     },
     {
+      "tips_group_id": 20000166,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle55.png",
+      "priority": 1
+    },
+    {
       "tips_group_id": 20000167,
       "group_icon": "",
       "priority": 0
@@ -2449,6 +2459,21 @@
       "tips_group_id": 20000175,
       "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle55.png",
       "priority": 1
+    },
+    {
+      "tips_group_id": 20000176,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_6/HouseRhythm/Avatar/UnPacker/SummerSmall.png",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000177,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_6/HouseRhythm/Avatar/UnPacker/SummerSmall.png",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000178,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_6/HouseRhythm/Avatar/UnPacker/NangongSmall.png",
+      "priority": 0
     }
   ]
 }

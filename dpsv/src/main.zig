@@ -4,25 +4,41 @@ const http = @import("http.zig");
 const native_os = @import("builtin").os.tag;
 
 const Io = std.Io;
-const ayo = common.ayo;
 const Allocator = std.mem.Allocator;
 const FileSystem = common.FileSystem;
+const zigaction = common.zigaction;
 
-const address = Io.net.IpAddress.parseLiteral("127.0.0.1:10100") catch unreachable;
-const fs_root: []const u8 = "state";
+const Args = struct {
+    state_dir: []const u8 = "state",
+    listen_address: []const u8 = "127.0.0.1:10100",
+};
 
 fn init(gpa: Allocator, io: Io) u8 {
     const log = std.log.scoped(.init);
+    common.printSplash();
 
-    var fs = FileSystem.init(gpa, io, fs_root) catch |err| {
-        log.err("failed to open filesystem at '{s}': {}", .{ fs_root, err });
+    const cmd_args = std.process.argsAlloc(gpa) catch @panic("early OOM");
+    defer std.process.argsFree(gpa, cmd_args);
+
+    const args = common.args.parse(Args, cmd_args[1..]) orelse {
+        common.args.printUsage(Args, cmd_args[0]);
+        return 1;
+    };
+
+    const address = Io.net.IpAddress.parseLiteral(args.listen_address) catch |err| {
+        log.err("invalid listen address specified: {t}", .{err});
+        return 1;
+    };
+
+    var fs = FileSystem.init(gpa, io, args.state_dir) catch |err| {
+        log.err("failed to open filesystem at '{s}': {t}", .{ args.state_dir, err });
         return 1;
     };
 
     defer fs.deinit();
 
     var server = address.listen(io, .{ .reuse_address = true }) catch |err| {
-        log.err("failed to listen at {f}: {}", .{ address, err });
+        log.err("failed to listen at {f}: {t}", .{ address, err });
         if (err == error.AddressInUse) log.err("another instance of this service might be already running", .{});
         return 1;
     };
@@ -31,40 +47,29 @@ fn init(gpa: Allocator, io: Io) u8 {
 
     log.info("dispatch server is listening at {f}", .{address});
 
-    var futures: ayo.ConcurrentSelect(.{
-        .accept = Io.net.Server.accept,
-        .close = http.processConnection,
-    }) = .init;
+    var client_group: Io.Group = .init;
+    defer client_group.cancel(io);
 
-    defer futures.cancel(io, gpa);
+    var sigint = zigaction.Handler(.INT).wait(io);
 
-    futures.concurrent(gpa, io, .accept, Io.net.Server.accept, .{ &server, io }) catch |err| {
-        // TODO: fallback to io.async calls if ConcurrencyUnavailable
-        log.err("failed to schedule accept routine: {}", .{err});
-        return 1;
-    };
+    while (!io.cancelRequested()) {
+        var accept = io.concurrent(Io.net.Server.accept, .{ &server, io }) catch
+            io.async(Io.net.Server.accept, .{ &server, io });
 
-    while (futures.wait(io)) |result| {
-        switch (result) {
+        switch (io.select(.{ .accept = &accept, .sigint = &sigint }) catch break) {
             .accept => |fallible| {
-                futures.concurrent(gpa, io, .accept, Io.net.Server.accept, .{ &server, io }) catch
-                    unreachable; // errors shouldn't be possible since first of all concurrency IS available and the space for future was freed by previous call.
-
                 const stream = fallible catch continue;
-                futures.concurrent(gpa, io, .close, http.processConnection, .{ gpa, io, &fs, stream }) catch |err| {
-                    switch (err) {
-                        error.OutOfMemory => stream.close(io),
-                        error.ConcurrencyUnavailable => unreachable, // not possible at this point
-                    }
-                };
+                const client_args = .{ gpa, io, &fs, stream };
+                client_group.concurrent(io, http.onConnect, client_args) catch
+                    client_group.async(io, http.onConnect, client_args);
             },
-            .close => |fallible| {
-                fallible catch |err| log.err("client disconnect due to an error: {}", .{err});
+            .sigint => {
+                log.info("shutting down...", .{});
+                if (accept.cancel(io)) |stream| stream.close(io) else |_| {}
+
+                break;
             },
         }
-    } else |err| {
-        if (!io.cancelRequested())
-            log.err("futures.wait failed: {}", .{err});
     }
 
     return 0;

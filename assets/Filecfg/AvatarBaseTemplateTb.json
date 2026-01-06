@@ -526,7 +526,29 @@
       "audio_bank": "BK_Summer|BK_CHR_Common|BK_Summer_VO",
       "unk_1": 0,
       "gender": 2,
-      "camp": 7
+      "camp": 13
+    },
+    {
+      "id": 1501,
+      "code_name": "Avatar_Female_Size01_Aria_En",
+      "name": "Avatar_Female_Size01_Aria",
+      "full_name": "Avatar_Female_Size01_Aria_FullName",
+      "audio_event_replace_param": "aria",
+      "audio_bank": "BK_Aria|BK_CHR_Common|BK_Aria_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 13
+    },
+    {
+      "id": 1502,
+      "code_name": "Avatar_Female_Size01_Aria_En",
+      "name": "Avatar_Female_Size01_Aria",
+      "full_name": "Avatar_Female_Size01_Aria_FullName",
+      "audio_event_replace_param": "aria",
+      "audio_bank": "BK_Aria|BK_CHR_Common|BK_Aria_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 0
     },
     {
       "id": 1511,
@@ -659,6 +681,17 @@
       "unk_1": 0,
       "gender": 2,
       "camp": 0
+    },
+    {
+      "id": 2071,
+      "code_name": "Avatar_Female_Size01_Summer_En",
+      "name": "Avatar_Female_Size01_Summer",
+      "full_name": "Avatar_Female_Size01_Summer_FullName",
+      "audio_event_replace_param": "summer",
+      "audio_bank": "BK_Summer|BK_CHR_Common|BK_Summer_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 7
     }
   ]
 }

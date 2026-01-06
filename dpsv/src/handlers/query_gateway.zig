@@ -95,7 +95,7 @@ pub fn process(arena: Allocator, writer: *Io.Writer, fs: *FileSystem, request: R
         },
         .region_ext = .{
             .func_switch = .{
-                .isKcp = 0,
+                .isKcp = 1,
                 .enableOperationLog = 1,
                 .enablePerformanceLog = 1,
             },

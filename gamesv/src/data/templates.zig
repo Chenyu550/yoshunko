@@ -320,3 +320,11 @@ pub const AvatarSpecialAwakenTemplate = struct {
     avatar_id: u32,
     upgrade_item_ids: []const u32 = &.{},
 };
+
+pub const AvatarFormTemplate = struct {
+    id: u32,
+    avatar_id: u32,
+    index: u32,
+    name: []const u8,
+    form_ids: []const u32 = &.{},
+};

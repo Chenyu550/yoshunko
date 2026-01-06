@@ -6,28 +6,34 @@ const native_os = @import("builtin").os.tag;
 
 const Io = std.Io;
 const Allocator = std.mem.Allocator;
-const ayo = common.ayo;
 const FileSystem = common.FileSystem;
+const zigaction = common.zigaction;
 
-const address = Io.net.IpAddress.parseLiteral("127.0.0.1:20501") catch unreachable;
-const fs_root: []const u8 = "state";
+const Args = struct {
+    gateway_name: []const u8 = "yoshunko",
+    state_dir: []const u8 = "state",
+};
 
 fn init(gpa: Allocator, io: Io) u8 {
     const log = std.log.scoped(.init);
+    common.printSplash();
 
-    var assets = Assets.init(gpa, io) catch |err| {
-        log.err("failed to load assets: {t}", .{err});
+    const cmd_args = std.process.argsAlloc(gpa) catch @panic("early OOM");
+    defer std.process.argsFree(gpa, cmd_args);
+
+    const args = common.args.parse(Args, cmd_args[1..]) orelse {
+        common.args.printUsage(Args, cmd_args[0]);
         return 1;
     };
 
-    defer assets.deinit(gpa);
-
-    var fs = FileSystem.init(gpa, io, fs_root) catch |err| {
-        log.err("failed to open filesystem at '{s}': {}", .{ fs_root, err });
+    var fs = FileSystem.init(gpa, io, args.state_dir) catch |err| {
+        log.err("failed to open filesystem at '{s}': {}", .{ args.state_dir, err });
         return 1;
     };
 
     defer fs.deinit();
+
+    const bind_address = (getBindAddress(gpa, &fs, args.gateway_name) catch null) orelse return 1;
 
     var watcher_task = io.concurrent(FileSystem.watch, .{&fs}) catch blk: {
         log.warn("FileSystem.watch: concurrency is not available", .{});
@@ -36,59 +42,74 @@ fn init(gpa: Allocator, io: Io) u8 {
 
     defer if (watcher_task) |*task| task.cancel(io) catch {};
 
-    var server = address.listen(io, .{ .reuse_address = true }) catch |err| {
-        log.err("failed to listen at {f}: {}", .{ address, err });
+    var assets = Assets.init(gpa, io) catch |err| {
+        log.err("failed to load assets: {t}", .{err});
+        return 1;
+    };
+
+    defer assets.deinit(gpa);
+
+    var server = bind_address.listen(io, .{ .reuse_address = true }) catch |err| {
+        log.err("failed to listen at {f}: {}", .{ bind_address, err });
         if (err == error.AddressInUse) log.err("another instance of this service might be already running", .{});
         return 1;
     };
 
     defer server.deinit(io);
 
-    log.info("game server is listening at {f}", .{address});
+    log.info("game server is listening at {f}", .{bind_address});
 
-    var futures: ayo.ConcurrentSelect(.{
-        .accept = Io.net.Server.accept,
-        .close = network.processConnection,
-    }) = .init;
+    var client_group: Io.Group = .init;
+    defer client_group.cancel(io);
 
-    defer futures.cancel(io, gpa);
+    var sigint = zigaction.Handler(.INT).wait(io);
 
-    futures.concurrent(gpa, io, .accept, Io.net.Server.accept, .{ &server, io }) catch |err| {
-        // TODO: fallback to io.async calls if ConcurrencyUnavailable
-        log.err("failed to schedule accept routine: {}", .{err});
-        return 1;
-    };
+    while (!io.cancelRequested()) {
+        var accept = io.concurrent(Io.net.Server.accept, .{ &server, io }) catch
+            io.async(Io.net.Server.accept, .{ &server, io });
 
-    while (futures.wait(io)) |result| {
-        switch (result) {
+        switch (io.select(.{ .accept = &accept, .sigint = &sigint }) catch break) {
             .accept => |fallible| {
-                futures.concurrent(gpa, io, .accept, Io.net.Server.accept, .{ &server, io }) catch
-                    unreachable; // errors shouldn't be possible since first of all concurrency IS available and the space for future was freed by previous call.
-
                 const stream = fallible catch continue;
-                futures.concurrent(
-                    gpa,
-                    io,
-                    .close,
-                    network.processConnection,
-                    .{ gpa, io, &fs, &assets, stream },
-                ) catch |err| {
-                    switch (err) {
-                        error.OutOfMemory => stream.close(io),
-                        error.ConcurrencyUnavailable => unreachable, // not possible at this point
-                    }
-                };
+                const client_args = .{ gpa, io, &fs, &assets, stream };
+                client_group.concurrent(io, network.onConnect, client_args) catch
+                    client_group.async(io, network.onConnect, client_args);
             },
-            .close => |fallible| {
-                fallible catch |err| log.err("client disconnected due to an error: {}", .{err});
+            .sigint => {
+                log.info("shutting down...", .{});
+                if (accept.cancel(io)) |stream| stream.close(io) else |_| {}
+
+                break;
             },
         }
-    } else |err| {
-        if (!io.cancelRequested())
-            log.err("futures.wait failed: {}", .{err});
     }
 
     return 0;
+}
+
+fn getBindAddress(gpa: Allocator, fs: *FileSystem, gateway_name: []const u8) !?Io.net.IpAddress {
+    const log = std.log.scoped(.gateway);
+
+    var temp_allocator = std.heap.ArenaAllocator.init(gpa);
+    defer temp_allocator.deinit();
+    const arena = temp_allocator.allocator();
+
+    const gateway_content = try fs.readFile(arena, try std.fmt.allocPrint(arena, "gateway/{s}", .{gateway_name})) orelse {
+        log.err("gateway '{s}' is not defined", .{gateway_name});
+        return null;
+    };
+
+    const gateway_var_set = try common.var_set.readVarSet(common.Gateway, arena, gateway_content) orelse {
+        log.err("gateway config for '{s}' is malformed", .{gateway_name});
+        return null;
+    };
+
+    const gateway = gateway_var_set.data;
+
+    return Io.net.IpAddress.parseIp4(gateway.ip, gateway.port) catch |err| {
+        log.err("gateway '{s}' has a malformed ip address: {t} ({s})", .{ gateway_name, err, gateway.ip });
+        return null;
+    };
 }
 
 pub fn main() u8 {

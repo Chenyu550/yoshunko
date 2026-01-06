@@ -25,6 +25,7 @@ is_favorite: bool = false,
 avatar_skin_id: u32 = 0,
 is_awake_available: bool = false,
 awake_id: u32 = 0,
+cur_form_id: u32 = 0,
 is_awake_enabled: bool = false,
 dressed_equip: [equipment_count]?u32 = @splat(null),
 show_weapon_type: ShowWeaponType = .active,
@@ -48,7 +49,7 @@ pub fn toProto(avatar: *const Avatar, id: u32, allocator: Allocator) !pb.AvatarI
         .exp = avatar.exp,
         .rank = avatar.rank,
         .unlocked_talent_num = avatar.unlocked_talent_num,
-        .talent_switch_list = try allocator.dupe(bool, avatar.talent_switch_list[0..]),
+        .talent_switch_list = .fromOwnedSlice(try allocator.dupe(bool, avatar.talent_switch_list[0..])),
         .passive_skill_level = avatar.passive_skill_level,
         .cur_weapon_uid = avatar.cur_weapon_uid,
         .show_weapon_type = @enumFromInt(@intFromEnum(avatar.show_weapon_type)),
@@ -57,31 +58,25 @@ pub fn toProto(avatar: *const Avatar, id: u32, allocator: Allocator) !pb.AvatarI
         .is_awake_available = avatar.is_awake_available,
         .awake_id = avatar.awake_id,
         .is_awake_enabled = avatar.is_awake_enabled,
+        .cur_form_id = avatar.cur_form_id,
     };
 
-    var dressed_equip = try std.ArrayList(pb.DressedEquip).initCapacity(allocator, equipment_count);
-    defer dressed_equip.deinit(allocator);
-
+    try avatar_info.dressed_equip_list.ensureTotalCapacity(allocator, equipment_count);
     for (avatar.dressed_equip, 1..) |maybe_uid, index| {
         const uid = maybe_uid orelse continue;
-        dressed_equip.appendAssumeCapacity(.{
+        avatar_info.dressed_equip_list.appendAssumeCapacity(.{
             .equip_uid = uid,
             .index = @intCast(index),
         });
     }
 
-    avatar_info.dressed_equip_list = try dressed_equip.toOwnedSlice(allocator);
-
-    const skills = try allocator.alloc(pb.AvatarSkillLevel, avatar.skill_type_level.len);
-
-    for (avatar.skill_type_level, 0..) |skill, i| {
-        skills[i] = .{
+    try avatar_info.skill_type_level.ensureTotalCapacity(allocator, avatar.skill_type_level.len);
+    for (avatar.skill_type_level) |skill| {
+        avatar_info.skill_type_level.appendAssumeCapacity(.{
             .skill_type = @intFromEnum(skill.type),
             .level = skill.level,
-        };
+        });
     }
-
-    avatar_info.skill_type_level = skills;
 
     return avatar_info;
 }
@@ -125,6 +120,16 @@ pub const SkillLevel = struct {
 
 pub fn addDefaults(gpa: Allocator, assets: *const Assets, map: *std.AutoArrayHashMapUnmanaged(u32, Avatar)) !void {
     for (assets.templates.avatar_base_template_tb.payload.data) |template| {
-        if (template.camp != 0) try map.put(gpa, template.id, .default);
+        if (template.camp != 0) {
+            var avatar: Avatar = .default;
+            for (assets.templates.avatar_form_template_tb.payload.data) |form_template| {
+                if (form_template.avatar_id == template.id and form_template.index == 1) {
+                    avatar.cur_form_id = form_template.id;
+                    break;
+                }
+            }
+
+            try map.put(gpa, template.id, avatar);
+        }
     }
 }

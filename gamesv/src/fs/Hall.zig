@@ -23,9 +23,19 @@ pub const Transform = struct {
 
     pub fn toProto(t: Transform, arena: Allocator) !pb.Transform {
         return .{
-            .position = try arena.dupe(f64, t.position[0..]),
-            .rotation = try arena.dupe(f64, t.rotation[0..]),
+            .position = .fromOwnedSlice(try arena.dupe(f64, t.position[0..])),
+            .rotation = .fromOwnedSlice(try arena.dupe(f64, t.rotation[0..])),
         };
+    }
+
+    pub fn fromProto(t: pb.Transform) !Transform {
+        if (t.position.items.len != 3 or t.rotation.items.len != 3) return error.IllFormedTransform;
+
+        var result: Transform = undefined;
+        @memcpy(result.position[0..], t.position.items);
+        @memcpy(result.rotation[0..], t.rotation.items);
+
+        return result;
     }
 };
 
@@ -35,6 +45,13 @@ pub const Section = struct {
     pub const Position = union(enum) {
         born_transform: []const u8,
         custom: Transform,
+
+        pub fn deinit(position: Position, gpa: Allocator) void {
+            switch (position) {
+                .born_transform => |bt| gpa.free(bt),
+                .custom => {},
+            }
+        }
     };
 
     pub fn createDefault(gpa: Allocator, template: *const templates.SectionConfigTemplate) !@This() {
@@ -52,7 +69,9 @@ pub const Npc = struct {
     interacts: [2]?Interact = @splat(null),
 
     pub fn deinit(npc: Npc, gpa: Allocator) void {
-        std.zon.parse.free(gpa, npc);
+        for (npc.interacts) |maybe_interact| if (maybe_interact) |interact| {
+            interact.deinit(gpa);
+        };
     }
 
     pub fn toProto(npc: Npc, arena: Allocator, id: u32) !pb.NpcInfo {
@@ -77,11 +96,11 @@ pub const Npc = struct {
                 .scale_z = interact.scale[2],
                 .scale_w = interact.scale[3],
                 .scale_r = interact.scale[4],
-                .interact_target_list = try arena.dupe(pb.InteractTarget, &.{switch (i) {
+                .interact_target_list = .fromOwnedSlice(try arena.dupe(pb.InteractTarget, &.{switch (i) {
                     0 => .trigger_box,
                     1 => .npc,
                     else => unreachable,
-                }}),
+                }})),
                 .name = try arena.dupe(u8, interact.name),
             };
 
@@ -93,12 +112,12 @@ pub const Npc = struct {
                 };
             }
 
-            interact_info.participators = participators;
+            interact_info.participators = .fromOwnedSlice(participators);
             interacts_info[j] = .{ .key = interact.id, .value = interact_info };
             j += 1;
         }
 
-        info.interacts_info = interacts_info;
+        info.interacts_info = .fromOwnedSlice(interacts_info);
         return info;
     }
 };
@@ -112,7 +131,11 @@ pub const Interact = struct {
     name: []const u8,
     scale: [5]f64,
 
-    pub fn deinit(interact: *Interact, gpa: Allocator) void {
+    pub fn deinit(interact: Interact, gpa: Allocator) void {
+        for (interact.participators) |participator| {
+            gpa.free(participator.name);
+        }
+
         gpa.free(interact.name);
         gpa.free(interact.participators);
     }

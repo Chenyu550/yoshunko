@@ -43,6 +43,7 @@ hadal_zone_quest_template_tb: TemplateTb(templates.HadalZoneQuestTemplate, .laye
 training_quest_template_tb: TemplateTb(templates.TrainingQuestTemplate, .id),
 battle_event_config_template_tb: TemplateTb(templates.BattleEventConfigTemplate, .id),
 avatar_special_awaken_template_tb: TemplateTb(templates.AvatarSpecialAwakenTemplate, .id),
+avatar_form_template_tb: TemplateTb(templates.AvatarFormTemplate, .id),
 
 pub fn load(gpa: Allocator, io: Io) !Self {
     @setEvalBranchQuota(1_000_000);
@@ -169,29 +170,13 @@ fn TemplateTb(comptime Template: type, comptime key: anytype) type {
     const key_name = @tagName(key);
     const key_type = @FieldType(Template, key_name);
 
-    return @Type(.{
-        .@"struct" = .{
-            .layout = .auto,
-            .fields = &.{
-                .{
-                    .name = tb_items_field,
-                    .type = struct { data: []const Template },
-                    .default_value_ptr = null,
-                    .is_comptime = false,
-                    .alignment = @alignOf([]const Template),
-                },
-                .{
-                    .name = @tagName(key) ++ map_name_suffix,
-                    .type = std.AutoHashMapUnmanaged(key_type, usize),
-                    .default_value_ptr = &std.AutoHashMapUnmanaged(key_type, usize).empty,
-                    .is_comptime = false,
-                    .alignment = @alignOf(std.AutoHashMapUnmanaged(key_type, usize)),
-                },
-            },
-            .decls = &.{},
-            .is_tuple = false,
-        },
-    });
+    return @Struct(
+        .auto,
+        null,
+        &.{ tb_items_field, @tagName(key) ++ map_name_suffix },
+        &.{ struct { data: []const Template }, std.AutoHashMapUnmanaged(key_type, usize) },
+        &@splat(.{ .@"comptime" = false }),
+    );
 }
 
 inline fn keyMapName(comptime TB: type) []const u8 {

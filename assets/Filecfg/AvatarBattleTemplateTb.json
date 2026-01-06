@@ -88,7 +88,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -199,8 +199,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -310,7 +310,7 @@
 
       ],
       "unk_70": [
-        11
+        12
       ],
       "weapon_type": 4,
       "element": [
@@ -421,8 +421,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -533,9 +533,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -646,8 +646,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -758,7 +758,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 5,
       "element": [
@@ -870,8 +870,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -982,8 +982,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 3,
       "element": [
@@ -1093,7 +1093,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -1205,8 +1205,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -1316,7 +1316,7 @@
 
       ],
       "unk_70": [
-        3
+        4
       ],
       "weapon_type": 5,
       "element": [
@@ -1536,7 +1536,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -1757,7 +1757,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -1868,8 +1868,8 @@
       ],
       "unk_70": [
         2,
-        8,
-        11
+        9,
+        12
       ],
       "weapon_type": 3,
       "element": [
@@ -1980,7 +1980,8 @@
       ],
       "unk_70": [
         2,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -2002,9 +2003,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        2052,
-        5512,
-        292
+        2056,
+        5516,
+        296
       ],
       "awake_ids": [
         118100,
@@ -2104,8 +2105,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -2127,9 +2128,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        3808,
-        1744,
-        4276
+        3816,
+        1752,
+        4284
       ],
       "awake_ids": [
         119100,
@@ -2230,8 +2231,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -2342,7 +2343,7 @@
 
       ],
       "unk_70": [
-        9
+        10
       ],
       "weapon_type": 4,
       "element": [
@@ -2453,8 +2454,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -2565,8 +2566,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -2676,7 +2677,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -2787,8 +2788,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -3009,8 +3010,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -3121,8 +3122,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -3234,9 +3235,9 @@
       ],
       "unk_70": [
         2,
-        5,
         6,
-        11
+        7,
+        12
       ],
       "weapon_type": 1,
       "element": [
@@ -3348,7 +3349,7 @@
       ],
       "unk_70": [
         2,
-        11
+        12
       ],
       "weapon_type": 4,
       "element": [
@@ -3460,8 +3461,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -3572,8 +3573,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -3670,7 +3671,7 @@
         "Cut",
         "Ice",
         "Female",
-        "Camp0",
+        "Camp12",
         "Size0",
         "AidTypeParry",
         "XiaoZhao",
@@ -3695,7 +3696,7 @@
       "unk_element_camp": [
         "3:1:1",
         "3:3:1",
-        "3:6:1"
+        "3:4:1"
       ],
       "unk_75": 0,
       "unk_76": 5000,
@@ -3794,9 +3795,9 @@
 
       ],
       "unk_70": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "weapon_type": 2,
       "element": [
@@ -3907,9 +3908,9 @@
 
       ],
       "unk_70": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "weapon_type": 2,
       "element": [
@@ -4020,9 +4021,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -4134,8 +4135,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -4246,8 +4247,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 2,
       "element": [
@@ -4358,8 +4359,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -4470,7 +4471,7 @@
       ],
       "unk_70": [
         2,
-        7
+        8
       ],
       "weapon_type": 4,
       "element": [
@@ -4638,7 +4639,7 @@
       "pen_delta": 0,
       "luck": 0,
       "stun": 0,
-      "break_stun": 93,
+      "break_stun": 83,
       "element_abnormal_power": 94,
       "sp_bar_point": 120,
       "sp_recover": 120,
@@ -4675,9 +4676,9 @@
       "tags": [
         "Zhenzhen",
         "Cut",
-        "Electric",
+        "Physics",
         "Female",
-        "Camp1",
+        "Camp10",
         "Size2",
         "AidTypeParry",
         "Zhenzhen",
@@ -4691,8 +4692,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -4705,7 +4706,7 @@
         "3:4:1",
         "3:5:1"
       ],
-      "unk_75": 1001,
+      "unk_75": 1003,
       "unk_76": 5000,
       "unk_77": 0,
       "unk_78": 4,
@@ -4803,9 +4804,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -5027,8 +5028,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -5139,9 +5140,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -5251,8 +5252,8 @@
 
       ],
       "unk_70": [
-        5,
-        11
+        6,
+        12
       ],
       "weapon_type": 2,
       "element": [
@@ -5264,6 +5265,332 @@
       "unk_element_camp": [
         "3:1:1",
         "3:6:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 1491,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5491,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 681,
+      "health_growth": 924944,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 108,
+      "attack_growth": 63517,
+      "defence": 48,
+      "defence_growth": 65524,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 83,
+      "element_abnormal_power": 96,
+      "sp_bar_point": 120,
+      "sp_recover": 100,
+      "element_mystery": 95,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 4148646653,
+      "unk_61": 1256040773,
+      "unk_62": 3783191261,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Summer",
+        "Punch",
+        "Physics",
+        "Female",
+        "Camp13",
+        "Size1",
+        "AidTypeParry",
+        "Summer",
+        "EtherEyesSize1"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "weapon_type": 4,
+      "element": [
+        200
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "3:1:1",
+        "3:3:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 1501,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5501,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 623,
+      "health_growth": 845544,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 124,
+      "attack_growth": 74992,
+      "defence": 50,
+      "defence_growth": 67561,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 87,
+      "element_abnormal_power": 140,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 116,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 1140910905,
+      "unk_61": 3919582078,
+      "unk_62": 3274286659,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Aria",
+        "Punch",
+        "Ether",
+        "Female",
+        "Camp13",
+        "Size1",
+        "AidTypeParry",
+        "Aria",
+        "EtherEyesSize1"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        2,
+        8,
+        9
+      ],
+      "weapon_type": 3,
+      "element": [
+        205
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "3:2:1",
+        "3:4:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 1502,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5502,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 623,
+      "health_growth": 845544,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 124,
+      "attack_growth": 74992,
+      "defence": 50,
+      "defence_growth": 67561,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 87,
+      "element_abnormal_power": 140,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 116,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 1140910905,
+      "unk_61": 3919582078,
+      "unk_62": 0,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Aria",
+        "Punch",
+        "Ether",
+        "Female",
+        "Camp13",
+        "Size1",
+        "AidTypeParry",
+        "Aria",
+        "EtherEyesSize1"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "weapon_type": 3,
+      "element": [
+        205
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "3:2:1",
+        "3:4:1"
       ],
       "unk_75": 0,
       "unk_76": 5000,
@@ -6244,9 +6571,9 @@
       "unk_57": 0,
       "unk_58": 0,
       "unk_59": 0,
-      "unk_60": 2932548399,
-      "unk_61": 3728831708,
-      "unk_62": 565746809,
+      "unk_60": 3762523629,
+      "unk_61": 1885329903,
+      "unk_62": 0,
       "unk_63": 0,
       "unk_64": 0,
       "unk_65": 0,
@@ -6340,9 +6667,9 @@
       "unk_57": 0,
       "unk_58": 0,
       "unk_59": 0,
-      "unk_60": 2401582774,
-      "unk_61": 2467964941,
-      "unk_62": 736325911,
+      "unk_60": 3646625793,
+      "unk_61": 1980473930,
+      "unk_62": 0,
       "unk_63": 0,
       "unk_64": 0,
       "unk_65": 0,
@@ -6367,6 +6694,118 @@
       "unk_75": 0,
       "unk_76": 5000,
       "unk_77": 1,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 2071,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 6071,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 692,
+      "health_growth": 939358,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 103,
+      "attack_growth": 59961,
+      "defence": 48,
+      "defence_growth": 65524,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 83,
+      "element_abnormal_power": 93,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 92,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 195700082,
+      "unk_61": 1054270461,
+      "unk_62": 3783191261,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Summer",
+        "Punch",
+        "Ether",
+        "Female",
+        "Camp8",
+        "Size1",
+        "AidTypeParry",
+        "Summer",
+        "EtherEyesSize1"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        2,
+        11
+      ],
+      "weapon_type": 4,
+      "element": [
+        205
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "3:1:1",
+        "3:3:1",
+        "3:6:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
       "unk_78": 0,
       "base_avatar_id": 0,
       "unk_80": 100,
@@ -6461,7 +6900,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -6572,8 +7011,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -6683,7 +7122,7 @@
 
       ],
       "unk_70": [
-        11
+        12
       ],
       "weapon_type": 4,
       "element": [
@@ -6793,7 +7232,7 @@
 
       ],
       "unk_70": [
-        11
+        12
       ],
       "weapon_type": 4,
       "element": [
@@ -6904,8 +7343,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -7016,9 +7455,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -7129,8 +7568,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -7241,7 +7680,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 5,
       "element": [
@@ -7353,8 +7792,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -7465,8 +7904,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 3,
       "element": [
@@ -7576,7 +8015,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -7688,8 +8127,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -7799,7 +8238,7 @@
 
       ],
       "unk_70": [
-        3
+        4
       ],
       "weapon_type": 5,
       "element": [
@@ -8019,7 +8458,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -8240,7 +8679,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -8351,8 +8790,8 @@
       ],
       "unk_70": [
         2,
-        8,
-        11
+        9,
+        12
       ],
       "weapon_type": 3,
       "element": [
@@ -8463,7 +8902,8 @@
       ],
       "unk_70": [
         2,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -8485,9 +8925,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        18444,
-        21904,
-        16684
+        19516,
+        22976,
+        17756
       ],
       "awake_ids": [
         118100,
@@ -8587,8 +9027,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -8610,9 +9050,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        20164,
-        18100,
-        20632
+        21236,
+        19172,
+        21704
       ],
       "awake_ids": [
         119100,
@@ -8712,8 +9152,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -8735,9 +9175,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        20588,
-        18524,
-        21056
+        21660,
+        19596,
+        22128
       ],
       "awake_ids": [
         119100,
@@ -8838,8 +9278,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -8950,7 +9390,7 @@
 
       ],
       "unk_70": [
-        9
+        10
       ],
       "weapon_type": 4,
       "element": [
@@ -9061,8 +9501,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -9173,8 +9613,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -9284,7 +9724,7 @@
 
       ],
       "unk_70": [
-        4
+        5
       ],
       "weapon_type": 2,
       "element": [
@@ -9395,8 +9835,120 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
+      ],
+      "weapon_type": 3,
+      "element": [
+        200
+      ],
+      "hit_type": [
+        101
+      ],
+      "unk_element_camp": [
+        "1:7:2",
+        "3:3:2"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 1261,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 3112611,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5261,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 626,
+      "health_growth": 849779,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 127,
+      "attack_growth": 76728,
+      "defence": 49,
+      "defence_growth": 66203,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 86,
+      "element_abnormal_power": 112,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 114,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 3633661039,
+      "unk_61": 1101507722,
+      "unk_62": 4141686480,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "JaneDoe",
+        "Cut",
+        "Physics",
+        "Female",
+        "Camp7",
+        "Size3",
+        "AidTypeParry",
+        "JaneDoe",
+        "EtherEyesSize3"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        2,
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -9617,8 +10169,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -9729,8 +10281,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -9842,9 +10394,9 @@
       ],
       "unk_70": [
         2,
-        5,
         6,
-        11
+        7,
+        12
       ],
       "weapon_type": 1,
       "element": [
@@ -9956,7 +10508,7 @@
       ],
       "unk_70": [
         2,
-        11
+        12
       ],
       "weapon_type": 4,
       "element": [
@@ -10068,7 +10620,7 @@
       ],
       "unk_70": [
         2,
-        11
+        12
       ],
       "weapon_type": 4,
       "element": [
@@ -10180,8 +10732,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -10292,8 +10844,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -10404,8 +10956,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -10502,7 +11054,7 @@
         "Cut",
         "Ice",
         "Female",
-        "Camp0",
+        "Camp12",
         "Size0",
         "AidTypeParry",
         "XiaoZhao",
@@ -10527,7 +11079,7 @@
       "unk_element_camp": [
         "3:1:1",
         "3:3:1",
-        "3:6:1"
+        "3:4:1"
       ],
       "unk_75": 0,
       "unk_76": 5000,
@@ -10626,9 +11178,9 @@
 
       ],
       "unk_70": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "weapon_type": 2,
       "element": [
@@ -10739,9 +11291,9 @@
 
       ],
       "unk_70": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "weapon_type": 2,
       "element": [
@@ -10852,9 +11404,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -10966,9 +11518,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -11080,8 +11632,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -11192,8 +11744,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 2,
       "element": [
@@ -11304,8 +11856,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -11416,8 +11968,8 @@
       ],
       "unk_70": [
         2,
-        7,
-        8
+        8,
+        9
       ],
       "weapon_type": 3,
       "element": [
@@ -11528,7 +12080,7 @@
       ],
       "unk_70": [
         2,
-        7
+        8
       ],
       "weapon_type": 4,
       "element": [
@@ -11639,7 +12191,7 @@
       ],
       "unk_70": [
         2,
-        7
+        8
       ],
       "weapon_type": 4,
       "element": [
@@ -11772,6 +12324,116 @@
       "rp_recover": 0
     },
     {
+      "id": 3114211,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5421,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 680,
+      "health_growth": 922338,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 95,
+      "attack_growth": 54562,
+      "defence": 57,
+      "defence_growth": 77787,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 94,
+      "element_abnormal_power": 91,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 90,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 3095607445,
+      "unk_61": 4121310406,
+      "unk_62": 1544972902,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "PanYinhu",
+        "Punch",
+        "Physics",
+        "Male",
+        "Camp10",
+        "Size3",
+        "AidTypeParry",
+        "PanYinhu",
+        "EtherEyesSize3"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        2
+      ],
+      "weapon_type": 5,
+      "element": [
+        200
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "1:10:2",
+        "3:6:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 1421,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
       "id": 3114310,
       "unk_5": [
 
@@ -11807,7 +12469,7 @@
       "pen_delta": 0,
       "luck": 0,
       "stun": 0,
-      "break_stun": 93,
+      "break_stun": 83,
       "element_abnormal_power": 94,
       "sp_bar_point": 120,
       "sp_recover": 120,
@@ -11844,9 +12506,9 @@
       "tags": [
         "Zhenzhen",
         "Cut",
-        "Electric",
+        "Physics",
         "Female",
-        "Camp1",
+        "Camp10",
         "Size2",
         "AidTypeParry",
         "Zhenzhen",
@@ -11860,8 +12522,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -11874,7 +12536,119 @@
         "3:4:1",
         "3:5:1"
       ],
-      "unk_75": 1001,
+      "unk_75": 1003,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 4,
+      "base_avatar_id": 1431,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 3114311,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5431,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 617,
+      "health_growth": 837238,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 135,
+      "attack_growth": 82578,
+      "defence": 49,
+      "defence_growth": 66203,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 83,
+      "element_abnormal_power": 94,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 93,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 2935218216,
+      "unk_61": 4177921399,
+      "unk_62": 3180501807,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Zhenzhen",
+        "Cut",
+        "Physics",
+        "Female",
+        "Camp10",
+        "Size2",
+        "AidTypeParry",
+        "Zhenzhen",
+        "EtherEyesSize2"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        2,
+        6,
+        7
+      ],
+      "weapon_type": 1,
+      "element": [
+        200
+      ],
+      "hit_type": [
+        101
+      ],
+      "unk_element_camp": [
+        "3:4:1",
+        "3:5:1"
+      ],
+      "unk_75": 1003,
       "unk_76": 5000,
       "unk_77": 0,
       "unk_78": 4,
@@ -11972,9 +12746,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -12085,9 +12859,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -12309,8 +13083,8 @@
       ],
       "unk_70": [
         2,
-        5,
-        6
+        6,
+        7
       ],
       "weapon_type": 1,
       "element": [
@@ -12421,9 +13195,9 @@
       ],
       "unk_70": [
         1,
-        5,
+        3,
         6,
-        19
+        7
       ],
       "weapon_type": 6,
       "element": [
@@ -12533,8 +13307,8 @@
 
       ],
       "unk_70": [
-        5,
-        11
+        6,
+        12
       ],
       "weapon_type": 2,
       "element": [
@@ -12552,6 +13326,332 @@
       "unk_77": 0,
       "unk_78": 0,
       "base_avatar_id": 1481,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 3114910,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5491,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 681,
+      "health_growth": 924944,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 108,
+      "attack_growth": 63517,
+      "defence": 48,
+      "defence_growth": 65524,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 83,
+      "element_abnormal_power": 96,
+      "sp_bar_point": 120,
+      "sp_recover": 100,
+      "element_mystery": 95,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 4148646653,
+      "unk_61": 1256040773,
+      "unk_62": 3783191261,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Summer",
+        "Punch",
+        "Physics",
+        "Female",
+        "Camp13",
+        "Size1",
+        "AidTypeParry",
+        "Summer",
+        "EtherEyesSize1"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "weapon_type": 4,
+      "element": [
+        200
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "3:1:1",
+        "3:3:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 1491,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 3115010,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5501,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 623,
+      "health_growth": 845544,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 124,
+      "attack_growth": 74992,
+      "defence": 50,
+      "defence_growth": 67561,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 87,
+      "element_abnormal_power": 140,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 116,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 1140910905,
+      "unk_61": 3919582078,
+      "unk_62": 3274286659,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Aria",
+        "Punch",
+        "Ether",
+        "Female",
+        "Camp13",
+        "Size1",
+        "AidTypeParry",
+        "Aria",
+        "EtherEyesSize1"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        2,
+        8,
+        9
+      ],
+      "weapon_type": 3,
+      "element": [
+        205
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "3:2:1",
+        "3:4:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 1501,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 3115020,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5502,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 623,
+      "health_growth": 845544,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 124,
+      "attack_growth": 74992,
+      "defence": 50,
+      "defence_growth": 67561,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 87,
+      "element_abnormal_power": 140,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 116,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 1140910905,
+      "unk_61": 3919582078,
+      "unk_62": 0,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Aria",
+        "Punch",
+        "Ether",
+        "Female",
+        "Camp13",
+        "Size1",
+        "AidTypeParry",
+        "Aria",
+        "EtherEyesSize1"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "weapon_type": 3,
+      "element": [
+        205
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "3:2:1",
+        "3:4:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 1502,
       "unk_80": 100,
       "rp_max": 0,
       "rp_recover": 0

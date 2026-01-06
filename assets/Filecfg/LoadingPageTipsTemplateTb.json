@@ -2397,6 +2397,10 @@
       "trigger_condition": ""
     },
     {
+      "id": 200029,
+      "trigger_condition": ""
+    },
+    {
       "id": 1010111,
       "trigger_condition": ""
     },
@@ -2561,6 +2565,10 @@
       "trigger_condition": ""
     },
     {
+      "id": 2014311,
+      "trigger_condition": ""
+    },
+    {
       "id": 2110511,
       "trigger_condition": ""
     },
@@ -2606,6 +2614,10 @@
     },
     {
       "id": 2214811,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2314911,
       "trigger_condition": ""
     },
     {
@@ -2757,6 +2769,46 @@
       "trigger_condition": ""
     },
     {
+      "id": 6002201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6002202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6002204,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6002206,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003328,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003336,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003338,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003340,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003343,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003347,
+      "trigger_condition": ""
+    },
+    {
       "id": 6003401,
       "trigger_condition": ""
     },
@@ -2766,6 +2818,34 @@
     },
     {
       "id": 6003403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6004311,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6004313,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6004315,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6004321,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6004324,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6004331,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6004332,
       "trigger_condition": ""
     },
     {
@@ -2834,6 +2914,14 @@
     },
     {
       "id": 6018055,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6021012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6021088,
       "trigger_condition": ""
     },
     {
@@ -3361,6 +3449,10 @@
       "trigger_condition": ""
     },
     {
+      "id": 8160105,
+      "trigger_condition": ""
+    },
+    {
       "id": 8160106,
       "trigger_condition": ""
     },
@@ -3369,7 +3461,91 @@
       "trigger_condition": ""
     },
     {
+      "id": 8160109,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8161101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8161102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8161103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8161301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8162101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8162103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8162105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8162201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8162204,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8162301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8162401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163203,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163204,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163205,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163206,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163207,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8163208,
+      "trigger_condition": ""
+    },
+    {
       "id": 8164103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8164104,
       "trigger_condition": ""
     },
     {
@@ -3389,7 +3565,67 @@
       "trigger_condition": ""
     },
     {
+      "id": 8164205,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8164206,
+      "trigger_condition": ""
+    },
+    {
       "id": 8165101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170109,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170110,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8170403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9000201,
       "trigger_condition": ""
     },
     {
@@ -3530,6 +3766,34 @@
     },
     {
       "id": 24201002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 25201001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 26201001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 26201003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 26201004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 26201005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 26201006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 26201101,
       "trigger_condition": ""
     },
     {
@@ -4081,6 +4345,18 @@
       "trigger_condition": ""
     },
     {
+      "id": 201431101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201431104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201431201,
+      "trigger_condition": ""
+    },
+    {
       "id": 211051101,
       "trigger_condition": ""
     },
@@ -4265,6 +4541,14 @@
       "trigger_condition": ""
     },
     {
+      "id": 226010112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 226020102,
+      "trigger_condition": ""
+    },
+    {
       "id": 230001001,
       "trigger_condition": ""
     },
@@ -4290,6 +4574,18 @@
     },
     {
       "id": 230101002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 231491101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 231491107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 231491201,
       "trigger_condition": ""
     },
     {
@@ -4402,7 +4698,23 @@
     },
     {
       "id": 410010127,
-      "trigger_condition": ""
+      "trigger_condition": "34940021"
+    },
+    {
+      "id": 410010129,
+      "trigger_condition": "34940025"
+    },
+    {
+      "id": 410010130,
+      "trigger_condition": "34940023"
+    },
+    {
+      "id": 410010131,
+      "trigger_condition": "34940024"
+    },
+    {
+      "id": 410010132,
+      "trigger_condition": "34940022"
     },
     {
       "id": 510010010,
@@ -4569,6 +4881,10 @@
       "trigger_condition": ""
     },
     {
+      "id": 510011431,
+      "trigger_condition": ""
+    },
+    {
       "id": 510011441,
       "trigger_condition": ""
     },
@@ -4586,6 +4902,10 @@
     },
     {
       "id": 510011481,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510011491,
       "trigger_condition": ""
     },
     {
@@ -4718,6 +5038,18 @@
     },
     {
       "id": 720000605,
+      "trigger_condition": ""
+    },
+    {
+      "id": 726010103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 726020101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 726020106,
       "trigger_condition": ""
     },
     {
@@ -6041,6 +6373,10 @@
       "trigger_condition": ""
     },
     {
+      "id": 914313001,
+      "trigger_condition": ""
+    },
+    {
       "id": 914405001,
       "trigger_condition": ""
     },
@@ -6394,6 +6730,14 @@
     },
     {
       "id": 2014212011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014311011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014312011,
       "trigger_condition": ""
     },
     {
