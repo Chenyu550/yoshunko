@@ -1,6 +1,8 @@
 const std = @import("std");
 const posix = std.posix;
 const Io = std.Io;
+// 关键：直接导入 builtin 模块（Zig 语言内置，非 std 下的）
+const builtin = @import("builtin");
 
 pub fn Handler(comptime sig: posix.SIG) type {
     return struct {
@@ -11,20 +13,20 @@ pub fn Handler(comptime sig: posix.SIG) type {
         pub fn wait(io: Io) Io.Future(void) {
             awaiter_io = io;
 
-            // 跨平台适配：Windows 跳过 sigaction（无实现），POSIX 保留原逻辑
-            if (std.builtin.target.os.tag != .windows) {
-                // 修正：显式声明 sigaction_t 结构体，而非匿名初始化
+            // 核心修复：用 @import("builtin").target 替代 std 下的路径
+            if (builtin.target.os.tag != .windows) {
+                // 显式声明 sigaction_t 结构体，修正原匿名初始化语法
                 const act = posix.sigaction_t{
                     .handler = .{ .handler = sigHandler },
                     .mask = @splat(0),
                     .flags = 0,
                 };
-                // 原代码未处理错误，这里补充 errdefer（保留原逻辑的同时避免编译警告）
+                // 补充错误处理（避免编译警告）
                 posix.sigaction(sig, &act, null) catch |err| {
                     std.log.warn("sigaction failed for signal {}: {}", .{ sig, err });
                 };
             } else {
-                // Windows 平台：空实现（或按需添加 Windows 信号处理）
+                // Windows 平台空实现（避免 sigaction 编译错误）
                 std.log.debug("Windows: sigaction not supported, skip signal handler setup", .{});
             }
 
