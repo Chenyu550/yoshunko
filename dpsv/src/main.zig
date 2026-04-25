@@ -76,8 +76,6 @@ fn init(gpa: Allocator, io: Io) u8 {
 }
 
 pub fn main() u8 {
-    if (native_os == .windows) @compileError("Here's a nickel, kid. Get yourself a real OS.");
-
     var debug_allocator: std.heap.DebugAllocator(.{}) = .init;
     defer std.debug.assert(debug_allocator.deinit() == .ok);
 
