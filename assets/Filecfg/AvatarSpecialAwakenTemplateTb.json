@@ -162,6 +162,113 @@
       "level_show_name": "AvatarSpecialAwaken_LevelShowName_1041_06"
     },
     {
+      "id": 114100,
+      "skill_ids": [
+        11141401,
+        11141601
+      ],
+      "avatar_id": 1141,
+      "unk_3": 0,
+      "index": 1,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20114
+      ],
+      "ability_desc": "",
+      "ability_name": "",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1141_01"
+    },
+    {
+      "id": 114101,
+      "skill_ids": [
+        11141401,
+        11141501,
+        11141601
+      ],
+      "avatar_id": 1141,
+      "unk_3": 0,
+      "index": 2,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20114
+      ],
+      "ability_desc": "AwakenAbilityDes_1141_02",
+      "ability_name": "AwakenAbilityName_1141",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1141_02"
+    },
+    {
+      "id": 114102,
+      "skill_ids": [
+        11141401,
+        11141502,
+        11141601
+      ],
+      "avatar_id": 1141,
+      "unk_3": 0,
+      "index": 3,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20114
+      ],
+      "ability_desc": "AwakenAbilityDes_1141_03",
+      "ability_name": "AwakenAbilityName_1141",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1141_03"
+    },
+    {
+      "id": 114103,
+      "skill_ids": [
+        11141401,
+        11141503,
+        11141601
+      ],
+      "avatar_id": 1141,
+      "unk_3": 0,
+      "index": 4,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20114
+      ],
+      "ability_desc": "AwakenAbilityDes_1141_04",
+      "ability_name": "AwakenAbilityName_1141",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1141_04"
+    },
+    {
+      "id": 114104,
+      "skill_ids": [
+        11141401,
+        11141504,
+        11141601
+      ],
+      "avatar_id": 1141,
+      "unk_3": 0,
+      "index": 5,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20114
+      ],
+      "ability_desc": "AwakenAbilityDes_1141_05",
+      "ability_name": "AwakenAbilityName_1141",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1141_05"
+    },
+    {
+      "id": 114105,
+      "skill_ids": [
+        11141401,
+        11141505,
+        11141601
+      ],
+      "avatar_id": 1141,
+      "unk_3": 0,
+      "index": 6,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20114
+      ],
+      "ability_desc": "AwakenAbilityDes_1141_06",
+      "ability_name": "AwakenAbilityName_1141",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1141_06"
+    },
+    {
       "id": 117100,
       "skill_ids": [
         11171501,
@@ -469,6 +576,107 @@
       "ability_desc": "AwakenAbilityDes_1191_06",
       "ability_name": "AwakenAbilityName_1191",
       "level_show_name": "AvatarSpecialAwaken_LevelShowName_1191_06"
+    },
+    {
+      "id": 120100,
+      "skill_ids": [
+        11201601
+      ],
+      "avatar_id": 1201,
+      "unk_3": 0,
+      "index": 1,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20120
+      ],
+      "ability_desc": "",
+      "ability_name": "",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1201_01"
+    },
+    {
+      "id": 120101,
+      "skill_ids": [
+        11201601,
+        11201701
+      ],
+      "avatar_id": 1201,
+      "unk_3": 0,
+      "index": 2,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20120
+      ],
+      "ability_desc": "AwakenAbilityDes_1201_02",
+      "ability_name": "AwakenAbilityName_1201",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1201_02"
+    },
+    {
+      "id": 120102,
+      "skill_ids": [
+        11201601,
+        11201702
+      ],
+      "avatar_id": 1201,
+      "unk_3": 0,
+      "index": 3,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20120
+      ],
+      "ability_desc": "AwakenAbilityDes_1201_03",
+      "ability_name": "AwakenAbilityName_1201",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1201_03"
+    },
+    {
+      "id": 120103,
+      "skill_ids": [
+        11201601,
+        11201703
+      ],
+      "avatar_id": 1201,
+      "unk_3": 0,
+      "index": 4,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20120
+      ],
+      "ability_desc": "AwakenAbilityDes_1201_04",
+      "ability_name": "AwakenAbilityName_1201",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1201_04"
+    },
+    {
+      "id": 120104,
+      "skill_ids": [
+        11201601,
+        11201704
+      ],
+      "avatar_id": 1201,
+      "unk_3": 0,
+      "index": 5,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20120
+      ],
+      "ability_desc": "AwakenAbilityDes_1201_05",
+      "ability_name": "AwakenAbilityName_1201",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1201_05"
+    },
+    {
+      "id": 120105,
+      "skill_ids": [
+        11201601,
+        11201705
+      ],
+      "avatar_id": 1201,
+      "unk_3": 0,
+      "index": 6,
+      "unk_5": 0,
+      "upgrade_item_ids": [
+        20120
+      ],
+      "ability_desc": "AwakenAbilityDes_1201_06",
+      "ability_name": "AwakenAbilityName_1201",
+      "level_show_name": "AvatarSpecialAwaken_LevelShowName_1201_06"
     },
     {
       "id": 138100,

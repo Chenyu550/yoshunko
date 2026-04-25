@@ -559,7 +559,62 @@
       "audio_bank": "BK_NangongYu|BK_CHR_Common|BK_NangongYu_VO",
       "unk_1": 0,
       "gender": 2,
-      "camp": 0
+      "camp": 13
+    },
+    {
+      "id": 1521,
+      "code_name": "Avatar_Female_Size02_Cissia_En",
+      "name": "Avatar_Female_Size02_Cissia",
+      "full_name": "Avatar_Female_Size02_Cissia_FullName",
+      "audio_event_replace_param": "cissia",
+      "audio_bank": "BK_Cissia|BK_CHR_Common|BK_Cissia_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 7
+    },
+    {
+      "id": 1531,
+      "code_name": "Avatar_Male_Size03_SPBilly_En",
+      "name": "Avatar_Male_Size03_SPBilly",
+      "full_name": "Avatar_Male_Size03_SPBilly_FullName",
+      "audio_event_replace_param": "spbilly",
+      "audio_bank": "BK_SPBilly|BK_CHR_Common|BK_SPBilly_VO",
+      "unk_1": 0,
+      "gender": 1,
+      "camp": 1
+    },
+    {
+      "id": 1541,
+      "code_name": "Avatar_Female_Size03_Promeia_En",
+      "name": "Avatar_Female_Size03_Promeia",
+      "full_name": "Avatar_Female_Size03_Promeia_FullName",
+      "audio_event_replace_param": "promeia",
+      "audio_bank": "BK_Promeia|BK_CHR_Common|BK_Promeia_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 12
+    },
+    {
+      "id": 1561,
+      "code_name": "Avatar_Female_Size03_Velina_En",
+      "name": "Avatar_Female_Size03_Velina",
+      "full_name": "Avatar_Female_Size03_Velina_FullName",
+      "audio_event_replace_param": "velina",
+      "audio_bank": "BK_Velina|BK_CHR_Common|BK_Velina_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 7
+    },
+    {
+      "id": 1571,
+      "code_name": "Avatar_Female_Size01_Norma_En",
+      "name": "Avatar_Female_Size01_Norma",
+      "full_name": "Avatar_Female_Size01_Norma_FullName",
+      "audio_event_replace_param": "norma",
+      "audio_bank": "BK_Norma|BK_CHR_Common|BK_Norma_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 7
     },
     {
       "id": 2011,
@@ -650,6 +705,17 @@
       "camp": 0
     },
     {
+      "id": 2037,
+      "code_name": "",
+      "name": "",
+      "full_name": "",
+      "audio_event_replace_param": "Eous",
+      "audio_bank": "BK_Eous",
+      "unk_1": 0,
+      "gender": 0,
+      "camp": 0
+    },
+    {
       "id": 2041,
       "code_name": "Avatar_Female_Size02_Zhenzhen_En",
       "name": "Avatar_Female_Size02_Zhenzhen",
@@ -692,6 +758,28 @@
       "unk_1": 0,
       "gender": 2,
       "camp": 7
+    },
+    {
+      "id": 2101,
+      "code_name": "",
+      "name": "",
+      "full_name": "",
+      "audio_event_replace_param": "wise",
+      "audio_bank": "BK_Wise",
+      "unk_1": 0,
+      "gender": 1,
+      "camp": 0
+    },
+    {
+      "id": 2111,
+      "code_name": "",
+      "name": "",
+      "full_name": "",
+      "audio_event_replace_param": "belle",
+      "audio_bank": "BK_Belle",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 0
     }
   ]
 }

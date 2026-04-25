@@ -208,8 +208,8 @@ const KeyPair = struct {
         const e = try kp.public.modulus.pow(m, kp.secret.private_exponent);
         try e.toBytes(em, .big);
 
-        const msg_start = ct.lastIndexOfScalar(em, 0) orelse em.len;
-        return em[msg_start + 1 ..];
+        const msg_start = std.mem.findScalar(u8, em[2..], 0) orelse return "";
+        return em[msg_start + 3 ..];
     }
 
     pub fn encrypt(kp: KeyPair, plaintext: []const u8, out: []u8) !void {
@@ -355,28 +355,6 @@ fn PKCS1v1_5(comptime Hash: type) type {
         }
     };
 }
-
-const ct = struct {
-    fn lastIndexOfScalar(slice: []const u8, value: u8) ?usize {
-        return std.mem.lastIndexOfScalar(u8, slice, value);
-    }
-
-    fn indexOfScalarPos(slice: []const u8, start_index: usize, value: u8) ?usize {
-        return std.mem.indexOfScalarPos(u8, slice, start_index, value);
-    }
-
-    fn memEql(a: []const u8, b: []const u8) bool {
-        return std.mem.eql(u8, a, b);
-    }
-
-    fn @"and"(a: bool, b: bool) bool {
-        return a and b;
-    }
-
-    fn @"or"(a: bool, b: bool) bool {
-        return a or b;
-    }
-};
 
 fn removeNonHex(comptime hex: []const u8) []const u8 {
     var res: [hex.len]u8 = undefined;

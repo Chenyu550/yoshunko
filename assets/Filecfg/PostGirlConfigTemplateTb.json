@@ -393,6 +393,38 @@
       "role_icon_name": ""
     },
     {
+      "id": 3510047,
+      "name": "Avatar_Female_Size01_Summer",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510048,
+      "name": "Avatar_Female_Size01_Aria",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510049,
+      "name": "Avatar_Female_Size01_NangongYu",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510050,
+      "name": "Avatar_Female_Size02_Cissia",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
       "id": 3550000,
       "name": "LiveWallpaper_Activity001",
       "unk_1": 0,
@@ -407,6 +439,14 @@
       "unlock_condition": "",
       "unk_3": 0,
       "role_icon_name": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30186.png"
+    },
+    {
+      "id": 3590001,
+      "name": "LiveWallpaper_ActivityAngelsOfDelusion",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": "Assets/NapResources/UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/SocialCircle/SocialCircle_HeadIcon_2013.png"
     }
   ]
 }

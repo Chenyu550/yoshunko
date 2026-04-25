@@ -320,7 +320,7 @@
       "training_type": 2,
       "battle_event_id": 19810045,
       "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_45",
-      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconAnomaly.png"
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconRupture.png"
     },
     {
       "id": 12254046,
@@ -391,6 +391,62 @@
       "battle_event_id": 19810055,
       "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_55",
       "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconDefense.png"
+    },
+    {
+      "id": 12254056,
+      "training_type": 2,
+      "battle_event_id": 19810056,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_56",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconSupport.png"
+    },
+    {
+      "id": 12254057,
+      "training_type": 2,
+      "battle_event_id": 19810057,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_57",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconAnomaly.png"
+    },
+    {
+      "id": 12254058,
+      "training_type": 2,
+      "battle_event_id": 19810058,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_58",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconStun.png"
+    },
+    {
+      "id": 12254059,
+      "training_type": 2,
+      "battle_event_id": 19810059,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_59",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconAttack.png"
+    },
+    {
+      "id": 12254060,
+      "training_type": 2,
+      "battle_event_id": 19810060,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_60",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconStun.png"
+    },
+    {
+      "id": 12254061,
+      "training_type": 2,
+      "battle_event_id": 19810061,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_61",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconAttack.png"
+    },
+    {
+      "id": 12254062,
+      "training_type": 2,
+      "battle_event_id": 19810062,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_62",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconAnomaly.png"
+    },
+    {
+      "id": 12254063,
+      "training_type": 2,
+      "battle_event_id": 19810063,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_63",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconRupture.png"
     },
     {
       "id": 12255001,

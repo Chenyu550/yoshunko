@@ -184,6 +184,7 @@ fn initWeaponProperties(map: *PropMap, arena: Allocator, weapon: *const WeaponTe
 }
 
 fn setBattleProperties(map: *PropMap, arena: Allocator) !void {
+    // Standard 30% ATK to Sheer Force conversion for Rupture agents
     try modifyProperty(map, arena, PropertyType.SkipDefAtk, @divFloor(getProperty(map, PropertyType.Atk) * 30, 100));
 
     // Set *Battle variants of properties.
@@ -327,15 +328,18 @@ fn clearCustomProperties(map: *PropMap) void {
 // TODO: find out where this is actually configured
 const core_skill_specials = [_]struct { u32, PropertyType, PropertyType, [7]i32 }{
     // Yidhari - 10% HP -> SheerForce
-    .{ 1051, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
+    .{ 1051, PropertyType.SkipDefAtk, PropertyType.HpMax, @splat(10) },
     // Ben - 40-80% DEF -> ATK
     .{ 1121, PropertyType.Atk, PropertyType.Def, .{ 40, 46, 52, 60, 66, 72, 80 } },
     // Yixuan - 10% HP -> SheerForce
-    .{ 1371, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
+    .{ 1371, PropertyType.SkipDefAtk, PropertyType.HpMax, @splat(10) },
     // Komano Manato - 10% HP -> SheerForce
-    .{ 1441, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
+    .{ 1441, PropertyType.SkipDefAtk, PropertyType.HpMax, @splat(10) },
     // BanYue - 10% HP -> SheerForce
-    .{ 1471, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
+    .{ 1471, PropertyType.SkipDefAtk, PropertyType.HpMax, @splat(10) },
+    // Starlight - Billy - 12% HP -> SheerForce
+    // --- Should be 12%, but seems to not be coded in rn? 10% hp and (standard) 30% atk matches perfectly with stat screen
+    .{ 1531, PropertyType.SkipDefAtk, PropertyType.HpMax, @splat(10) },
 };
 
 pub const PropertyType = enum(u32) {

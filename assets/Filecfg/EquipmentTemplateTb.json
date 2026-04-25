@@ -4319,6 +4319,366 @@
       "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitShiningAria06.tga",
       "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitShiningAria06.tga",
       "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitShiningAria.tga"
+    },
+    {
+      "item_id": 33721,
+      "equipment_type": 1,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland01.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland01.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33722,
+      "equipment_type": 2,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland02.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland02.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33723,
+      "equipment_type": 3,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland03.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland03.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33724,
+      "equipment_type": 4,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland04.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland04.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33725,
+      "equipment_type": 5,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland05.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland05.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33726,
+      "equipment_type": 6,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland06.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland06.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33731,
+      "equipment_type": 1,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland01.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland01.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33732,
+      "equipment_type": 2,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland02.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland02.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33733,
+      "equipment_type": 3,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland03.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland03.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33734,
+      "equipment_type": 4,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland04.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland04.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33735,
+      "equipment_type": 5,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland05.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland05.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33736,
+      "equipment_type": 6,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland06.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland06.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33741,
+      "equipment_type": 1,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland01.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland01.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33742,
+      "equipment_type": 2,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland02.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland02.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33743,
+      "equipment_type": 3,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland03.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland03.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33744,
+      "equipment_type": 4,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland04.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland04.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33745,
+      "equipment_type": 5,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland05.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland05.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33746,
+      "equipment_type": 6,
+      "suit_type": 33700,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitBunnyinWonderland06.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitBunnyinWonderland06.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitBunnyinWonderland.tga"
+    },
+    {
+      "item_id": 33821,
+      "equipment_type": 1,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained01.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained01.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33822,
+      "equipment_type": 2,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained02.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained02.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33823,
+      "equipment_type": 3,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained03.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained03.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33824,
+      "equipment_type": 4,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained04.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained04.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33825,
+      "equipment_type": 5,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained05.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained05.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33826,
+      "equipment_type": 6,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_03.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained06.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained06.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33831,
+      "equipment_type": 1,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained01.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained01.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33832,
+      "equipment_type": 2,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained02.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained02.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33833,
+      "equipment_type": 3,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained03.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained03.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33834,
+      "equipment_type": 4,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained04.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained04.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33835,
+      "equipment_type": 5,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained05.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained05.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33836,
+      "equipment_type": 6,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_02.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained06.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained06.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33841,
+      "equipment_type": 1,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained01.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained01.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33842,
+      "equipment_type": 2,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained02.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained02.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33843,
+      "equipment_type": 3,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained03.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained03.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33844,
+      "equipment_type": 4,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained04.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained04.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33845,
+      "equipment_type": 5,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained05.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained05.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
+    },
+    {
+      "item_id": 33846,
+      "equipment_type": 6,
+      "suit_type": 33800,
+      "front_label_texture_path": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "back_label_texture_path": "UI/3D/Role/Interface_Prop_Disk_01.prefab",
+      "disk_texture_path": "UI/Textures/3DSuit/FrontLabel/KingoftheSummit/3DSuitNotesFromtheChained06.tga",
+      "play_music_tag": "UI/Textures/3DSuit/BackLabel/KingoftheSummit/3DSuitNotesFromtheChained06.tga",
+      "pause_music_tag": "UI/Textures/3DSuit/Disk/3DSuitNotesFromtheChained.tga"
     }
   ]
 }

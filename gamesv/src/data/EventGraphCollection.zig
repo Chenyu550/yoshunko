@@ -136,13 +136,15 @@ fn readAndParse(comptime T: type, io: Io, gpa: Allocator, dir: Io.Dir, sub_path:
     defer file.close(io);
 
     var reader = file.reader(io, "");
-    const content = try reader.interface.allocRemaining(gpa, .unlimited);
+    var writer = Io.Writer.Allocating.init(gpa);
+    _ = try reader.interface.streamRemaining(&writer.writer);
+    const content = try writer.toOwnedSliceSentinel(0);
     defer gpa.free(content);
 
     var diagnostics: std.zon.parse.Diagnostics = .{};
     defer diagnostics.deinit(gpa);
 
-    return std.zon.parse.fromSliceAlloc(T, gpa, @ptrCast(content), &diagnostics, .{}) catch {
+    return std.zon.parse.fromSliceAlloc(T, gpa, content, &diagnostics, .{}) catch {
         log.err("failed to parse {s}:\n{f}", .{ @typeName(T), diagnostics });
         return error.ParseFailed;
     };

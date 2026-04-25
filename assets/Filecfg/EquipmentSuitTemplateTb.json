@@ -1211,6 +1211,108 @@
         33646
       ],
       "tag": "EquipmentSuit_33600_Tag"
+    },
+    {
+      "id": 33700,
+      "name": "EquipmentSuit_33700_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_33700_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_33700_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "suit_story": "EquipmentSuit_33700_story",
+      "suit_filter_option": "EquipmentSuit_33700_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBunnyinWonderland.png",
+      "unk_14": 0,
+      "order": 33,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 11102,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        833720,
+        833730,
+        833740
+      ],
+      "unk_27": [
+        33741,
+        33742,
+        33743,
+        33744,
+        33745,
+        33746
+      ],
+      "tag": "EquipmentSuit_33700_Tag"
+    },
+    {
+      "id": 33800,
+      "name": "EquipmentSuit_33800_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_33800_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_33800_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "suit_story": "EquipmentSuit_33800_story",
+      "suit_filter_option": "EquipmentSuit_33800_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitNotesFromtheChained.png",
+      "unk_14": 0,
+      "order": 34,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31703,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        833820,
+        833830,
+        833840
+      ],
+      "unk_27": [
+        33841,
+        33842,
+        33843,
+        33844,
+        33845,
+        33846
+      ],
+      "tag": "EquipmentSuit_33800_Tag"
     }
   ]
 }

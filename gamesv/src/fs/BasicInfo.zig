@@ -9,7 +9,7 @@ level: u32 = 60,
 exp: u32 = 0,
 avatar_id: u32 = 2011,
 control_avatar_id: u32 = 2011,
-control_guise_avatar_id: u32 = 1501,
+control_guise_avatar_id: u32 = 1541,
 
 pub fn deinit(info: BasicInfo, gpa: Allocator) void {
     std.zon.parse.free(gpa, info);

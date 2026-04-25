@@ -11389,7 +11389,7 @@
       "propertys": [
         {
           "property": 12102,
-          "value": 600
+          "value": 700
         },
         {
           "property": 12101,
@@ -11424,7 +11424,7 @@
       "propertys": [
         {
           "property": 12102,
-          "value": 600
+          "value": 700
         },
         {
           "property": 12101,
@@ -11463,7 +11463,7 @@
       "propertys": [
         {
           "property": 12102,
-          "value": 1200
+          "value": 1400
         },
         {
           "property": 12101,
@@ -11502,7 +11502,7 @@
       "propertys": [
         {
           "property": 12102,
-          "value": 1200
+          "value": 1400
         },
         {
           "property": 12101,
@@ -11545,7 +11545,7 @@
       "propertys": [
         {
           "property": 12102,
-          "value": 1800
+          "value": 2100
         },
         {
           "property": 12101,
@@ -11588,7 +11588,7 @@
       "propertys": [
         {
           "property": 12102,
-          "value": 1800
+          "value": 2100
         },
         {
           "property": 12101,
@@ -11631,7 +11631,7 @@
       "propertys": [
         {
           "property": 31401,
-          "value": 16
+          "value": 12
         },
         {
           "property": 12101,
@@ -11666,7 +11666,7 @@
       "propertys": [
         {
           "property": 31401,
-          "value": 16
+          "value": 12
         },
         {
           "property": 12101,
@@ -11705,7 +11705,7 @@
       "propertys": [
         {
           "property": 31401,
-          "value": 32
+          "value": 24
         },
         {
           "property": 12101,
@@ -11744,7 +11744,7 @@
       "propertys": [
         {
           "property": 31401,
-          "value": 32
+          "value": 24
         },
         {
           "property": 12101,
@@ -11787,7 +11787,7 @@
       "propertys": [
         {
           "property": 31401,
-          "value": 48
+          "value": 36
         },
         {
           "property": 12101,
@@ -11830,7 +11830,7 @@
       "propertys": [
         {
           "property": 31401,
-          "value": 48
+          "value": 36
         },
         {
           "property": 12101,
@@ -11854,6 +11854,974 @@
         },
         {
           "item_id": 110008,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1511001,
+      "avatar_id": 1511,
+      "min_avatar_level": 15,
+      "min_passive_skill_level": 1,
+      "unlock_passive_skill_level": 2,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 12
+        },
+        {
+          "property": 12101,
+          "value": 0
+        }
+      ],
+      "names": [
+        "NangongYu_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "NangongYu_UniqueSkill_02_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 5000
+        }
+      ]
+    },
+    {
+      "skill_id": 1511002,
+      "avatar_id": 1511,
+      "min_avatar_level": 25,
+      "min_passive_skill_level": 2,
+      "unlock_passive_skill_level": 3,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 12
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "NangongYu_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "NangongYu_UniqueSkill_03_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 12000
+        },
+        {
+          "item_id": 110513,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1511003,
+      "avatar_id": 1511,
+      "min_avatar_level": 35,
+      "min_passive_skill_level": 3,
+      "unlock_passive_skill_level": 4,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 24
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "NangongYu_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "NangongYu_UniqueSkill_04_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 28000
+        },
+        {
+          "item_id": 110513,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1511004,
+      "avatar_id": 1511,
+      "min_avatar_level": 45,
+      "min_passive_skill_level": 4,
+      "unlock_passive_skill_level": 5,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 24
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "NangongYu_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "NangongYu_UniqueSkill_05_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 60000
+        },
+        {
+          "item_id": 110513,
+          "number": 9
+        },
+        {
+          "item_id": 110009,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1511005,
+      "avatar_id": 1511,
+      "min_avatar_level": 55,
+      "min_passive_skill_level": 5,
+      "unlock_passive_skill_level": 6,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 36
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "NangongYu_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "NangongYu_UniqueSkill_06_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 100000
+        },
+        {
+          "item_id": 110513,
+          "number": 15
+        },
+        {
+          "item_id": 110009,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "skill_id": 1511006,
+      "avatar_id": 1511,
+      "min_avatar_level": 60,
+      "min_passive_skill_level": 6,
+      "unlock_passive_skill_level": 7,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 36
+        },
+        {
+          "property": 12101,
+          "value": 75
+        }
+      ],
+      "names": [
+        "NangongYu_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "NangongYu_UniqueSkill_07_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 110513,
+          "number": 30
+        },
+        {
+          "item_id": 110009,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1521001,
+      "avatar_id": 1521,
+      "min_avatar_level": 15,
+      "min_passive_skill_level": 1,
+      "unlock_passive_skill_level": 2,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 30501,
+          "value": 12
+        },
+        {
+          "property": 12101,
+          "value": 0
+        }
+      ],
+      "names": [
+        "Cissia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Cissia_UniqueSkill_02_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 5000
+        }
+      ]
+    },
+    {
+      "skill_id": 1521002,
+      "avatar_id": 1521,
+      "min_avatar_level": 25,
+      "min_passive_skill_level": 2,
+      "unlock_passive_skill_level": 3,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 30501,
+          "value": 12
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "Cissia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Cissia_UniqueSkill_03_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 12000
+        },
+        {
+          "item_id": 110514,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1521003,
+      "avatar_id": 1521,
+      "min_avatar_level": 35,
+      "min_passive_skill_level": 3,
+      "unlock_passive_skill_level": 4,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 30501,
+          "value": 24
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "Cissia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Cissia_UniqueSkill_04_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 28000
+        },
+        {
+          "item_id": 110514,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1521004,
+      "avatar_id": 1521,
+      "min_avatar_level": 45,
+      "min_passive_skill_level": 4,
+      "unlock_passive_skill_level": 5,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 30501,
+          "value": 24
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "Cissia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Cissia_UniqueSkill_05_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 60000
+        },
+        {
+          "item_id": 110514,
+          "number": 9
+        },
+        {
+          "item_id": 110006,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1521005,
+      "avatar_id": 1521,
+      "min_avatar_level": 55,
+      "min_passive_skill_level": 5,
+      "unlock_passive_skill_level": 6,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 30501,
+          "value": 36
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "Cissia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Cissia_UniqueSkill_06_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 100000
+        },
+        {
+          "item_id": 110514,
+          "number": 15
+        },
+        {
+          "item_id": 110006,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "skill_id": 1521006,
+      "avatar_id": 1521,
+      "min_avatar_level": 60,
+      "min_passive_skill_level": 6,
+      "unlock_passive_skill_level": 7,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 30501,
+          "value": 36
+        },
+        {
+          "property": 12101,
+          "value": 75
+        }
+      ],
+      "names": [
+        "Cissia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Cissia_UniqueSkill_07_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 110514,
+          "number": 30
+        },
+        {
+          "item_id": 110006,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1531001,
+      "avatar_id": 1531,
+      "min_avatar_level": 15,
+      "min_passive_skill_level": 1,
+      "unlock_passive_skill_level": 2,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 20101,
+          "value": 480
+        },
+        {
+          "property": 12101,
+          "value": 0
+        }
+      ],
+      "names": [
+        "SPBilly_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "SPBilly_UniqueSkill_02_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 5000
+        }
+      ]
+    },
+    {
+      "skill_id": 1531002,
+      "avatar_id": 1531,
+      "min_avatar_level": 25,
+      "min_passive_skill_level": 2,
+      "unlock_passive_skill_level": 3,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 20101,
+          "value": 480
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "SPBilly_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "SPBilly_UniqueSkill_03_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 12000
+        },
+        {
+          "item_id": 110514,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1531003,
+      "avatar_id": 1531,
+      "min_avatar_level": 35,
+      "min_passive_skill_level": 3,
+      "unlock_passive_skill_level": 4,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 20101,
+          "value": 960
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "SPBilly_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "SPBilly_UniqueSkill_04_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 28000
+        },
+        {
+          "item_id": 110514,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1531004,
+      "avatar_id": 1531,
+      "min_avatar_level": 45,
+      "min_passive_skill_level": 4,
+      "unlock_passive_skill_level": 5,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 20101,
+          "value": 960
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "SPBilly_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "SPBilly_UniqueSkill_05_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 60000
+        },
+        {
+          "item_id": 110514,
+          "number": 9
+        },
+        {
+          "item_id": 110008,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1531005,
+      "avatar_id": 1531,
+      "min_avatar_level": 55,
+      "min_passive_skill_level": 5,
+      "unlock_passive_skill_level": 6,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 20101,
+          "value": 1440
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "SPBilly_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "SPBilly_UniqueSkill_06_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 100000
+        },
+        {
+          "item_id": 110514,
+          "number": 15
+        },
+        {
+          "item_id": 110008,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "skill_id": 1531006,
+      "avatar_id": 1531,
+      "min_avatar_level": 60,
+      "min_passive_skill_level": 6,
+      "unlock_passive_skill_level": 7,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 20101,
+          "value": 1440
+        },
+        {
+          "property": 12101,
+          "value": 75
+        }
+      ],
+      "names": [
+        "SPBilly_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "SPBilly_UniqueSkill_07_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 110514,
+          "number": 30
+        },
+        {
+          "item_id": 110008,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1541001,
+      "avatar_id": 1541,
+      "min_avatar_level": 15,
+      "min_passive_skill_level": 1,
+      "unlock_passive_skill_level": 2,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 12
+        },
+        {
+          "property": 12101,
+          "value": 0
+        }
+      ],
+      "names": [
+        "Promeia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Promeia_UniqueSkill_02_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 5000
+        }
+      ]
+    },
+    {
+      "skill_id": 1541002,
+      "avatar_id": 1541,
+      "min_avatar_level": 25,
+      "min_passive_skill_level": 2,
+      "unlock_passive_skill_level": 3,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 12
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "Promeia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Promeia_UniqueSkill_03_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 12000
+        },
+        {
+          "item_id": 110511,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1541003,
+      "avatar_id": 1541,
+      "min_avatar_level": 35,
+      "min_passive_skill_level": 3,
+      "unlock_passive_skill_level": 4,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 24
+        },
+        {
+          "property": 12101,
+          "value": 25
+        }
+      ],
+      "names": [
+        "Promeia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Promeia_UniqueSkill_04_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 28000
+        },
+        {
+          "item_id": 110511,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "skill_id": 1541004,
+      "avatar_id": 1541,
+      "min_avatar_level": 45,
+      "min_passive_skill_level": 4,
+      "unlock_passive_skill_level": 5,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 24
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "Promeia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Promeia_UniqueSkill_05_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 60000
+        },
+        {
+          "item_id": 110511,
+          "number": 9
+        },
+        {
+          "item_id": 110009,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "skill_id": 1541005,
+      "avatar_id": 1541,
+      "min_avatar_level": 55,
+      "min_passive_skill_level": 5,
+      "unlock_passive_skill_level": 6,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 36
+        },
+        {
+          "property": 12101,
+          "value": 50
+        }
+      ],
+      "names": [
+        "Promeia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Promeia_UniqueSkill_06_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 100000
+        },
+        {
+          "item_id": 110511,
+          "number": 15
+        },
+        {
+          "item_id": 110009,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "skill_id": 1541006,
+      "avatar_id": 1541,
+      "min_avatar_level": 60,
+      "min_passive_skill_level": 6,
+      "unlock_passive_skill_level": 7,
+      "unk_5": 0,
+      "unk_levelup": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "propertys": [
+        {
+          "property": 31401,
+          "value": 36
+        },
+        {
+          "property": 12101,
+          "value": 75
+        }
+      ],
+      "names": [
+        "Promeia_UniqueSkill_Title"
+      ],
+      "descriptions": [
+        "Promeia_UniqueSkill_07_Desc"
+      ],
+      "materials_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 110511,
+          "number": 30
+        },
+        {
+          "item_id": 110009,
           "number": 4
         }
       ]

@@ -10,8 +10,8 @@ pub const default: @This() = .{
     .entrances = &.{
         .{ .id = 2, .zone_id = 61001 },
         .{ .id = 3, .zone_id = 61002 },
-        .{ .id = 1, .zone_id = 620401 },
-        .{ .id = 9, .zone_id = 69030 },
+        .{ .id = 1, .zone_id = 620021 },
+        .{ .id = 9, .zone_id = 690361 },
     },
 };
 
